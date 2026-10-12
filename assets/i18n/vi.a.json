@@ -8,7 +8,8 @@
     "col_product": "Sản phẩm",
     "rights": "Đã đăng ký bản quyền.",
     "sms": "LacaStay gửi tin nhắn nhắc hẹn và đặt lịch qua SMS. Tần suất tin nhắn khác nhau. Có thể áp dụng cước tin nhắn và dữ liệu. Soạn STOP để hủy, HELP để được hỗ trợ.",
-    "tagline": "Lễ tân AI cho tiệm nail, spa và cho thuê kỳ nghỉ."
+    "tagline": "Lễ tân AI cho tiệm nail, spa và cho thuê kỳ nghỉ.",
+    "cookies": "Cài đặt cookie"
   },
   "home": {
     "cta_demo": "Nghe demo trực tiếp",
@@ -218,5 +219,10 @@
     "book_demo": "Đặt lịch Demo",
     "free_trial": "Dùng thử miễn phí",
     "call": "Gọi (301) 301-3852"
+  },
+  "cookie": {
+    "text": "Chúng tôi dùng cookie để ghi nhớ tùy chọn của bạn và phân tích lưu lượng truy cập. Chấp nhận hay từ chối — trang vẫn hoạt động như nhau.",
+    "accept": "Chấp nhận",
+    "decline": "Từ chối"
   }
 }

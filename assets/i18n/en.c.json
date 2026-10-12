@@ -254,7 +254,9 @@
     "s14b": "<p>We will notify you of material changes to this policy by email and by posting the updated policy with a new effective date at least 30 days before it takes effect.</p>",
     "s15t": "15. State-Specific Notices",
     "s15b": "<p><strong>California (CCPA/CPRA):</strong> California residents have the rights described in Section 7. We do not sell personal information. Under California's \"Shine the Light\" law, you may request information about disclosures of personal information for direct-marketing purposes — we make no such disclosures.</p><p><strong>Other states:</strong> As of 2026, 19 states have comprehensive privacy laws in effect (including Virginia, Colorado, Connecticut, Utah, and Texas). Residents of those states have substantially similar rights as described in Section 7; submit requests as described there.</p>",
-    "contact": "Privacy questions or rights requests: hello@lacastay.com."
+    "contact": "Privacy questions or rights requests: hello@lacastay.com.",
+    "s16t": "16. Cookies & Consent",
+    "s16b": "<p>We use a small number of cookies and similar storage to keep our site working. Strictly necessary storage (such as your language preference and your cookie-consent choice itself) does not require consent. Analytics and advertising storage are <strong>off by default</strong> and are only enabled if you click “Accept” on our cookie banner. You can change or withdraw your choice at any time via the “Cookie settings” link in the footer.</p>"
   },
   "dpa": {
     "meta": {

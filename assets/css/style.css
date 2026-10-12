@@ -319,3 +319,12 @@ a.logo { gap: 0; }
   .transcript-strip { padding: 44px 0; }
   .pc-meta { margin-top: 22px; }
 }
+
+/* ---- Cookie consent banner (built-in, no third-party service) ---- */
+.cookie-banner{position:fixed;z-index:200;left:16px;right:16px;bottom:16px;max-width:580px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--orange);border-radius:var(--radius);box-shadow:0 16px 48px rgba(28,25,23,.18);padding:18px 20px;animation:cookieIn .35s ease}
+.cookie-banner[hidden]{display:none!important}
+.cookie-banner p{margin:0 0 14px;font-size:.85rem;line-height:1.6;color:var(--ink-soft)}
+.cookie-actions{display:flex;gap:10px;flex-wrap:wrap}
+.cookie-banner .btn{padding:10px 24px;font-size:.85rem}
+@keyframes cookieIn{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
+@media(min-width:640px){.cookie-banner{left:24px;right:auto;bottom:24px}}

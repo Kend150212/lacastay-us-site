@@ -8,7 +8,8 @@
     "col_product": "Product",
     "rights": "All rights reserved.",
     "sms": "LacaStay sends appointment reminders and booking messages by SMS. Message frequency varies. Message and data rates may apply. Reply STOP to opt out, HELP for help.",
-    "tagline": "The AI receptionist for nail salons, spas, and vacation rentals."
+    "tagline": "The AI receptionist for nail salons, spas, and vacation rentals.",
+    "cookies": "Cookie settings"
   },
   "home": {
     "cta_demo": "Hear a live demo",
@@ -218,5 +219,10 @@
     "book_demo": "Book a Demo",
     "free_trial": "Start Free Trial",
     "call": "Call (301) 301-3852"
+  },
+  "cookie": {
+    "text": "We use cookies to remember your preferences and analyze site traffic. Accept or decline — the site works the same either way.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }
