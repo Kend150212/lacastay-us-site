@@ -1,0 +1,397 @@
+{
+  "pricing": {
+    "meta": {
+      "title": "Bảng giá — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Bảng giá",
+      "title": "Một mức giá cố định. Mọi cuộc gọi đều được trả lời.",
+      "sub": "Giá minh bạch, công khai ngay tại đây — không cần gọi sales, không phí ẩn, không trò tính tiền theo phút.",
+      "note": "Tất cả các gói thanh toán theo tháng. Không hợp đồng, hủy bất cứ lúc nào."
+    },
+    "t1": {
+      "name": "Starter",
+      "price": "$99",
+      "per": "/tháng",
+      "desc": "Cho doanh nghiệp một địa điểm mới bắt đầu dùng AI trả lời điện thoại.",
+      "f1": "AI trả lời điện thoại 24/7",
+      "f2": "Đặt lịch ngay vào lịch của bạn",
+      "f3": "Nhắc hẹn qua SMS",
+      "f4": "1 địa điểm, 1 số điện thoại",
+      "f5": "Bản ghi và tóm tắt cuộc gọi",
+      "f6": "Hỗ trợ qua email",
+      "cta": "Bắt đầu với Starter"
+    },
+    "t2": {
+      "badge": "Được chọn nhiều nhất",
+      "name": "Growth",
+      "price": "$199",
+      "per": "/tháng",
+      "desc": "Cho doanh nghiệp đang phát triển, muốn mọi cuộc gọi đều thành khách.",
+      "f1": "Mọi tính năng của Starter",
+      "f2": "Tự động xin đánh giá sau mỗi lần khách đến",
+      "f3": "Kịch bản upsell & nhắc đặt lại lịch",
+      "f4": "Nghe được nhiều ngôn ngữ (Anh, Tây Ban Nha, v.v.)",
+      "f5": "Tự nhắn lại khi nhỡ cuộc gọi",
+      "f6": "Hỗ trợ ưu tiên",
+      "cta": "Bắt đầu với Growth"
+    },
+    "t3": {
+      "name": "Nhiều địa điểm",
+      "price": "Riêng",
+      "per": "báo giá theo nhu cầu",
+      "desc": "Cho chuỗi spa, chuỗi salon và đơn vị quản lý cho thuê.",
+      "f1": "Mọi tính năng của Growth",
+      "f2": "Giá ưu đãi theo số địa điểm",
+      "f3": "Dashboard & báo cáo tập trung",
+      "f4": "Chuyên viên onboarding riêng",
+      "f5": "Tích hợp tùy chỉnh & API",
+      "f6": "SSO & bảo mật nâng cao",
+      "cta": "Trò chuyện với chúng tôi"
+    },
+    "anchor": {
+      "eyebrow": "Vì sao tự hoàn vốn",
+      "title": "So với chi phí thuê người, không phải phần mềm",
+      "text": "Thuê một lễ tân tốn khoảng $2.600/tháng. Dịch vụ trả lời điện thoại thuê người lấy $219–$309/tháng chỉ cho vài trăm phút. LacaStay trả lời mọi cuộc gọi, đặt mọi lịch hẹn, nhắc mọi lịch nhỡ — với chi phí rẻ hơn một lần khách bỏ hẹn."
+    },
+    "compare": {
+      "title": "LacaStay so với các lựa chọn khác",
+      "sub": "Đồng tiền của bạn thực sự mua được gì.",
+      "col_feature": "Tính năng",
+      "col_lacastay": "LacaStay Growth",
+      "col_ruby": "Ruby",
+      "col_smithai": "Smith.ai",
+      "col_podium": "Podium",
+      "r1f": "AI trả lời cuộc gọi 24/7",
+      "r1l": "Có, không giới hạn",
+      "r1r": "Chỉ tính theo phút người thật",
+      "r1s": "Chỉ nhân viên thật",
+      "r1p": "Tính năng bổ sung",
+      "r2f": "Tự động đặt lịch hẹn",
+      "r2l": "Có, vào thẳng lịch của bạn",
+      "r2r": "Chuyển tay thủ công",
+      "r2s": "Chuyển tay thủ công",
+      "r2p": "Có",
+      "r3f": "Nhắc hẹn qua SMS đã bao gồm",
+      "r3l": "Có",
+      "r3r": "Tính năng bổ sung",
+      "r3s": "Không",
+      "r3p": "Có",
+      "r4f": "Giá khởi điểm",
+      "r4l": "$199/tháng",
+      "r4r": "~$219/tháng",
+      "r4s": "~$285/tháng",
+      "r4p": "$399/tháng",
+      "note": "Giá đối thủ là số liệu công khai năm 2026, mang tính tham khảo và có thể thay đổi. Bảng so sánh chỉ mang tính minh họa."
+    },
+    "guarantee": {
+      "title": "Không hợp đồng. Hủy bất cứ lúc nào.",
+      "text": "Mọi gói đều thanh toán theo tháng. Nếu LacaStay không tự hoàn vốn, bạn hủy trong hai cú nhấp — dữ liệu vẫn xuất được trong 30 ngày, không cuộc gọi giữ chân, không phí hủy."
+    },
+    "faq": {
+      "title": "Câu hỏi thường gặp",
+      "q1": "Có hợp đồng hay phí setup không?",
+      "a1": "Không. Mọi gói đều theo tháng, không phí setup, không phí hủy. Hủy bất cứ lúc nào từ dashboard; gói vẫn chạy đến hết chu kỳ đã thanh toán.",
+      "q2": "Mỗi tháng bao gồm bao nhiêu cuộc gọi?",
+      "a2": "Starter bao gồm tới 300 cuộc gọi AI mỗi tháng; Growth bao gồm tới 750. Nếu bạn thường xuyên cần nhiều hơn, chúng tôi sẽ nâng hạn mức cho bạn — không bao giờ có hóa đơn bất ngờ.",
+      "q3": "Người gọi có biết mình đang nói chuyện với AI không?",
+      "a3": "Có. LacaStay tự giới thiệu trong mọi cuộc gọi — 'Xin chào, tôi là trợ lý AI LacaStay của [doanh nghiệp]' — theo đúng luật công bố AI của các bang. Khách gọi thường nhận xét trải nghiệm rất tự nhiên và hữu ích.",
+      "q4": "Có dùng được với phần mềm đặt lịch hiện tại của tôi không?",
+      "a4": "LacaStay đồng bộ với các lịch lớn của ngành salon, spa và quản lý cho thuê, và dùng được ngay với Google Calendar. Nếu hôm nay bạn nhận đặt lịch qua điện thoại, ngày mai chúng tôi có thể nhận thay bạn.",
+      "q5": "Hủy gói thì dữ liệu của tôi ra sao?",
+      "a5": "Bạn có thể xuất danh bạ, nhật ký cuộc gọi và lịch sử đặt hẹn định dạng CSV bất cứ lúc nào, kể cả trong 30 ngày sau khi hủy. Sau thời gian đó, dữ liệu được xóa theo lịch lưu trữ của chúng tôi."
+    },
+    "cta": {
+      "title": "Sẵn sàng không bỏ lỡ cuộc gọi nào?",
+      "text": "Nghe thử AI xử lý một cuộc đặt lịch thật, rồi hãy quyết định.",
+      "btn": "Đặt lịch demo trực tiếp"
+    }
+  },
+  "compliance": {
+    "meta": {
+      "title": "Tuân thủ & Tin cậy — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Tuân thủ & Tin cậy",
+      "title": "Tuân thủ có thể kiểm chứng",
+      "sub": "Lễ tân AI chạm vào những lĩnh vực bị quản lý chặt — cuộc gọi, tin nhắn, bản ghi âm và dữ liệu khách hàng. Đây là cách LacaStay xử lý từng mảng."
+    },
+    "b1t": "Voice AI tuân thủ TCPA",
+    "b1d": "Cuộc gọi AI tuân thủ quy tắc đồng ý, giờ gọi và từ chối của FCC.",
+    "b2t": "SMS đăng ký 10DLC",
+    "b2d": "Nhắn tin doanh nghiệp đã đăng ký với The Campaign Registry.",
+    "b3t": "AI luôn tự xưng danh",
+    "b3d": "Mọi cuộc gọi đều mở đầu bằng lời giới thiệu AI rõ ràng.",
+    "b4t": "Mã hóa toàn trình",
+    "b4d": "TLS khi truyền, AES-256 khi lưu trữ, truy cập được kiểm toán.",
+    "b5t": "Đồng ý ghi âm cuộc gọi",
+    "b5d": "Thông báo ghi âm ở nơi luật yêu cầu đồng thuận hai bên.",
+    "b6t": "Hạ tầng đạt chuẩn SOC 2",
+    "b6d": "Chạy trên hạ tầng đám mây đã kiểm toán SOC 2.",
+    "tcpa": {
+      "title": "TCPA: voice AI đúng luật",
+      "intro": "Phán quyết tháng 2/2024 của FCC coi giọng nói do AI tạo ra là cuộc gọi bị quản lý theo Đạo luật Bảo vệ Người tiêu dùng qua Điện thoại. LacaStay được xây dựng xoay quanh thực tế đó:",
+      "l1": "Cần có sự đồng ý rõ ràng trước khi gọi bằng giọng AI — gọi marketing cần đồng ý bằng văn bản.",
+      "l2": "Tôn trọng giờ gọi: 8 giờ sáng–9 giờ tối theo múi giờ địa phương của người nhận.",
+      "l3": "Từ chối tức thì: các từ khóa như STOP được xử lý ngay lập tức.",
+      "l4": "Đối chiếu danh sách DNC quốc gia và duy trì danh sách không-gọi nội bộ.",
+      "l5": "Điều khoản Dịch vụ chuyển nghĩa vụ TCPA cho từng khách hàng doanh nghiệp — bạn chỉ được gọi/nhắn cho người đã đồng ý; tài khoản lạm dụng sẽ bị khóa."
+    },
+    "dlc": {
+      "title": "10DLC: nhắn tin doanh nghiệp đã đăng ký",
+      "text": "Mọi SMS ứng-dụng-đến-người đều chạy qua chiến dịch 10DLC đã đăng ký với The Campaign Registry. Nghĩa là danh tính doanh nghiệp được xác minh, loại tin nhắn được khai báo, ngôn ngữ opt-in/opt-out công khai — để tin nhắc hẹn của bạn thực sự đến nơi thay vì bị lọc như spam."
+    },
+    "ai": {
+      "title": "Công bố AI: luôn tự xưng danh",
+      "text": "Đạo luật B.O.T. của California và Đạo luật Chính sách AI của Utah yêu cầu tác nhân AI phải công bố danh tính nhân tạo khi tương tác với người tiêu dùng. LacaStay mở đầu mọi cuộc gọi bằng lời giới thiệu rõ ràng — 'Xin chào, tôi là trợ lý AI LacaStay của [tên doanh nghiệp]' — và trả lời trung thực nếu người gọi hỏi có phải người thật không."
+    },
+    "security": {
+      "title": "Bảo mật dữ liệu",
+      "l1": "Mã hóa khi truyền (TLS 1.2+) và khi lưu trữ (AES-256).",
+      "l2": "Phân quyền truy cập theo vai trò, xác thực đa yếu tố và nhật ký kiểm toán đầy đủ cho nhân viên.",
+      "l3": "Chạy trên hạ tầng đám mây đã kiểm toán SOC 2.",
+      "l4": "Dữ liệu khách hàng không bao giờ dùng để huấn luyện mô hình phục vụ khách hàng khác."
+    },
+    "recording": {
+      "title": "Đồng ý ghi âm cuộc gọi",
+      "text": "Cuộc gọi có thể được ghi âm để đảm bảo độ chính xác đặt lịch và chất lượng. Ở 12 bang yêu cầu đồng thuận hai bên/các bên — bao gồm California — AI sẽ thông báo cuộc gọi đang được ghi âm trước khi tiếp tục. Xem thông báo đầy đủ trong Chính sách Quyền riêng tư."
+    },
+    "docs": {
+      "title": "Tài liệu pháp lý",
+      "text": "Chi tiết pháp lý đầy đủ tại đây:",
+      "terms": "Điều khoản Dịch vụ",
+      "privacy": "Chính sách Quyền riêng tư",
+      "dpa": "Phụ lục Xử lý Dữ liệu",
+      "sub": "Danh sách nhà thầu phụ",
+      "note": "Có bảng câu hỏi bảo mật? Liên hệ với chúng tôi, chúng tôi sẽ hoàn thành."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Điều khoản Dịch vụ — LacaStay"
+    },
+    "hero": {
+      "title": "Điều khoản Dịch vụ",
+      "sub": "Cập nhật lần cuối: 11 tháng 10, 2026",
+      "disclaimer": "Các tài liệu này chỉ nhằm mục đích cung cấp thông tin, không phải tư vấn pháp lý."
+    },
+    "s1t": "1. Chấp nhận Điều khoản",
+    "s1b": "<p>Điều khoản Dịch vụ này (\"Điều khoản\") là thỏa thuận ràng buộc giữa LacaStay LLC (\"LacaStay,\" \"chúng tôi\") và doanh nghiệp đăng ký Dịch vụ (\"Khách hàng,\" \"bạn\"). Bằng việc tạo tài khoản, nhấp \"Tôi đồng ý\" hoặc sử dụng Dịch vụ, bạn chấp nhận các Điều khoản này.</p><p>Bạn cam đoan mình được ủy quyền ràng buộc doanh nghiệp, từ 18 tuổi trở lên, và đăng ký thay mặt một doanh nghiệp — Dịch vụ không dành cho cá nhân tiêu dùng.</p>",
+    "s2t": "2. Mô tả Dịch vụ",
+    "s2b": "<p>LacaStay cung cấp dịch vụ lễ tân giọng nói AI và tự động hóa đặt lịch cho salon nail, spa và doanh nghiệp cho thuê nghỉ dưỡng. Dịch vụ trả lời cuộc gọi đến, đặt lịch hẹn, gửi nhắc hẹn và xử lý các liên lạc liên quan thay mặt bạn.</p><p>Dịch vụ không đảm bảo bất kỳ kết quả kinh doanh, lưu lượng cuộc gọi hay kết quả đặt lịch cụ thể nào, và thời gian hoạt động không tuyệt đối. Dịch vụ không dùng cho trường hợp khẩn cấp và không được dùng để gọi khẩn cấp.</p>",
+    "s3t": "3. Đăng ký Tài khoản & Bảo mật",
+    "s3b": "<p>Bạn phải cung cấp thông tin doanh nghiệp chính xác khi đăng ký. Bạn chịu trách nhiệm bảo vệ thông tin đăng nhập và mọi hoạt động dưới tài khoản của mình. Thông báo ngay cho chúng tôi về mọi truy cập trái phép. Mỗi nhóm doanh nghiệp một tài khoản, trừ khi có thỏa thuận khác.</p>",
+    "s4t": "4. Gói thuê bao, Phí & Thanh toán",
+    "s4b": "<p>Các gói được thanh toán theo tháng hoặc theo năm bằng USD, trả trước. Gói thuê bao tự động gia hạn cùng kỳ hạn cho đến khi hủy.</p><ul><li>Chúng tôi sẽ thông báo ít nhất 30 ngày trước mỗi lần gia hạn.</li><li>Thay đổi giá có hiệu lực sau ít nhất 30 ngày thông báo, áp dụng từ kỳ gia hạn tiếp theo.</li><li>Nếu thanh toán thất bại, chúng tôi sẽ thử lại và thông báo cho bạn; Dịch vụ có thể bị tạm ngưng sau 7 ngày ân hạn.</li><li>Phí đã thanh toán không được hoàn lại, trừ khi luật yêu cầu. Việc hủy sẽ dừng các khoản phí trong tương lai; gói của bạn vẫn hoạt động đến hết kỳ đã thanh toán.</li></ul>",
+    "s5t": "5. Dùng thử & Ưu đãi khuyến mại",
+    "s5b": "<p>Quyền dùng thử giới hạn trong phạm vi tính năng và thời gian nêu trong ưu đãi, và sẽ chuyển thành gói trả phí khi hết hạn trừ khi bạn hủy. Sau khi dùng thử hết hạn mà không chuyển đổi, dữ liệu dùng thử được giữ 30 ngày để xuất, sau đó bị xóa.</p>",
+    "s6t": "6. Chính sách Sử dụng Chấp nhận được",
+    "s6b": "<p>Bạn không được dùng Dịch vụ để:</p><ul><li>Gọi điện hoặc nhắn tin cho người nhận mà chưa có sự đồng ý theo yêu cầu của TCPA, Quy tắc Bán hàng qua Điện thoại, hoặc luật bang hiện hành — bạn hoàn toàn chịu trách nhiệm thu thập và lưu bằng chứng đồng ý.</li><li>Gửi spam, quấy rối, hoặc hoạt động bất hợp pháp, gian dối, gây hại.</li><li>Thu thập dữ liệu trái phép, dịch ngược, hoặc trích xuất mô hình, prompt hay mã nguồn của Dịch vụ.</li><li>Bán lại Dịch vụ hoặc dùng để đo đạc đối chiếu cạnh tranh khi chưa có đồng ý bằng văn bản của chúng tôi.</li><li>Mạo danh bất kỳ cá nhân hay doanh nghiệp nào, hoặc thể hiện AI như nhân viên con người.</li></ul><p>Chúng tôi có thể khóa ngay tài khoản có hành vi lạm dụng TCPA hoặc vi phạm khác mà không cần báo trước.</p>",
+    "s7t": "7. Quyền sở hữu & Di chuyển Dữ liệu Khách hàng",
+    "s7b": "<p>Bạn sở hữu dữ liệu kinh doanh của mình — danh bạ, nhật ký cuộc gọi, bản ghi âm, bản ghi chép và lịch hẹn (\"Dữ liệu Khách hàng\"). Bạn cấp cho LacaStay giấy phép toàn cầu, không độc quyền để lưu trữ, xử lý và truyền Dữ liệu Khách hàng chỉ nhằm cung cấp và cải thiện Dịch vụ cho bạn.</p><p>Bạn có thể xuất Dữ liệu Khách hàng định dạng CSV bất cứ lúc nào trong thời gian thuê bao và trong 30 ngày sau khi chấm dứt.</p>",
+    "s8t": "8. Tính năng AI & Kết quả đầu ra",
+    "s8b": "<p>Dịch vụ dùng trí tuệ nhân tạo để thực hiện hội thoại điện thoại. Bạn thừa nhận rằng:</p><ul><li>Cuộc gọi do tác nhân AI thực hiện và AI tự xưng danh trong mọi cuộc gọi.</li><li>Bản ghi chép và tóm tắt được tạo tự động, có thể có sai sót; chúng tôi không đảm bảo độ chính xác.</li><li>Bạn sở hữu các kết quả được tạo cho tài khoản của mình (bản ghi chép, tóm tắt, hồ sơ đặt lịch).</li><li>Bạn không được dùng AI để lừa dối người gọi hoặc cho bất kỳ mục đích bất hợp pháp nào.</li><li>Dữ liệu Khách hàng của bạn không được dùng để huấn luyện mô hình phục vụ khách hàng khác.</li></ul>",
+    "s9t": "9. Sở hữu Trí tuệ",
+    "s9b": "<p>LacaStay giữ toàn bộ quyền đối với Dịch vụ, bao gồm phần mềm, mô hình, prompt và thương hiệu. Bạn nhận giấy phép có giới hạn, không độc quyền, không chuyển nhượng để dùng Dịch vụ trong thời gian thuê bao. Bạn không được sao chép, sửa đổi hay tạo tác phẩm phái sinh từ Dịch vụ.</p>",
+    "s10t": "10. Quyền riêng tư & Xử lý Dữ liệu",
+    "s10b": "<p>Việc thu thập và sử dụng thông tin cá nhân của chúng tôi tuân theo <a href=\"privacy.html\">Chính sách Quyền riêng tư</a>. Khách hàng doanh nghiệp thuộc phạm vi luật bảo vệ dữ liệu có thể ký <a href=\"dpa.html\">Phụ lục Xử lý Dữ liệu</a> của chúng tôi; phụ lục này được hợp nhất bằng tham chiếu khi các bên đã ký.</p>",
+    "s11t": "11. Tuyên bố Từ chối Bảo hành",
+    "s11b": "<p>DỊCH VỤ ĐƯỢC CUNG CẤP \"NGUYÊN TRẠNG\" VÀ \"THEO KHẢ DỤNG.\" TRONG PHẠM VI TỐI ĐA LUẬT CHO PHÉP, LACASTAY TỪ CHỐI MỌI BẢO HÀNH, DÙ RÕ RÀNG HAY NGỤ Ý, BAO GỒM BẢO HÀNH NGỤ Ý VỀ KHẢ NĂNG THƯƠNG MẠI, PHÙ HỢP MỤC ĐÍCH CỤ THỂ VÀ KHÔNG XÂM PHẠM.</p>",
+    "s12t": "12. Giới hạn Trách nhiệm",
+    "s12b": "<p>TRONG PHẠM VI TỐI ĐA LUẬT CHO PHÉP, LACASTAY KHÔNG CHỊU TRÁCH NHIỆM VỀ BẤT KỲ THIỆT HẠI GIÁN TIẾP, NGẪU NHIÊN, HỆ QUẢ, ĐẶC BIỆT HAY MANG TÍNH TRỪNG PHẠT NÀO. TỔNG TRÁCH NHIỆM CỘNG DỒN CỦA LACASTAY THEO CÁC ĐIỀU KHOẢN NÀY KHÔNG VƯỢT QUÁ SỐ PHÍ BẠN ĐÃ TRẢ TRONG 12 THÁNG TRƯỚC KHI KHIẾU NẠI PHÁT SINH.</p>",
+    "s13t": "13. Bồi thường",
+    "s13b": "<p>Bạn sẽ bồi thường và bảo vệ LacaStay khỏi các khiếu nại phát sinh từ việc bạn lạm dụng Dịch vụ, nội dung của bạn, hoặc vi phạm pháp luật của bạn — bao gồm khiếu nại TCPA từ các cuộc gọi/tin nhắn do bạn chỉ đạo. Chúng tôi sẽ bồi thường cho bạn đối với khiếu nại của bên thứ ba rằng Dịch vụ xâm phạm quyền sở hữu trí tuệ của họ. Nghĩa vụ bồi thường tuân theo mức giới hạn trách nhiệm tại Mục 12.</p>",
+    "s14t": "14. Tạm ngưng & Chấm dứt",
+    "s14b": "<p>Mỗi bên có thể chấm dứt vì bất kỳ lý do gì với thông báo bằng văn bản 30 ngày. Mỗi bên có thể chấm dứt vì vi phạm nghiêm trọng với thông báo 15 ngày và cơ hội khắc phục. Chúng tôi có thể tạm ngưng hoặc chấm dứt ngay khi không thanh toán (sau thời gian ân hạn tại Mục 4), lạm dụng TCPA, hoặc vi phạm chính sách sử dụng khác.</p><p>Sau khi chấm dứt, bạn có 30 ngày để xuất Dữ liệu Khách hàng; sau đó dữ liệu bị xóa theo lịch lưu trữ. Các Mục 7, 9, 11, 12, 13, 15, 16 và 19 vẫn có hiệu lực sau chấm dứt.</p>",
+    "s15t": "15. Luật Điều chỉnh",
+    "s15b": "<p>Các Điều khoản này được điều chỉnh bởi luật Bang Texas, không áp dụng nguyên tắc xung đột luật.</p>",
+    "s16t": "16. Giải quyết Tranh chấp & Trọng tài",
+    "s16b": "<p>Trước khi nộp bất kỳ khiếu nại nào, các bên sẽ nỗ lực giải quyết thân thiện trong 30 ngày sau thông báo bằng văn bản về tranh chấp. Nếu không giải quyết được, tranh chấp sẽ được giải quyết bằng trọng tài ràng buộc theo Đạo luật Trọng tài Liên bang, trên cơ sở cá nhân — bạn từ bỏ quyền xét xử bởi bồi thẩm đoàn và quyền tham gia kiện tập thể.</p><p>Bạn có thể từ chối trọng tài bằng cách gửi thông báo bằng văn bản tới hello@lacastay.com trong vòng 30 ngày kể từ lần đầu chấp nhận các Điều khoản này.</p>",
+    "s17t": "17. Điều khoản SMS / TCPA",
+    "s17b": "<p>LacaStay gửi tin nhắn SMS/MMS thay mặt bạn, bao gồm nhắc hẹn, xác nhận đặt lịch và xin đánh giá.</p><ul><li>Tần suất tin nhắn thay đổi tùy mức sử dụng của bạn.</li><li>Có thể áp dụng phí tin nhắn và dữ liệu.</li><li>Soạn STOP để ngừng nhận tin marketing; soạn HELP để được trợ giúp.</li><li>Sự đồng ý được thu thập khi khách hàng của bạn cung cấp số điện thoại cho các liên lạc liên quan đến đặt lịch, hoặc qua opt-in rõ ràng khi luật yêu cầu.</li><li>Câu hỏi về SMS, liên hệ hello@lacastay.com.</li></ul>",
+    "s18t": "18. Thay đổi Điều khoản",
+    "s18b": "<p>Chúng tôi có thể cập nhật các Điều khoản này theo thời gian. Thay đổi quan trọng có hiệu lực 30 ngày sau khi thông báo (qua email hoặc thông báo trong sản phẩm). Việc tiếp tục sử dụng Dịch vụ sau ngày hiệu lực đồng nghĩa với chấp nhận.</p>",
+    "s19t": "19. Điều khoản Chung",
+    "s19b": "<p>Tính tách rời: nếu một điều khoản không thể thi hành, các điều khoản còn lại vẫn có hiệu lực. Chuyển nhượng: bạn không được chuyển nhượng các Điều khoản này khi chưa có đồng ý của chúng tôi; chúng tôi có thể chuyển nhượng trong sáp nhập hoặc bán doanh nghiệp. Bất khả kháng: không bên nào chịu trách nhiệm về chậm trễ do sự kiện ngoài tầm kiểm soát hợp lý. Các Điều khoản này, cùng Đơn đặt hàng và DPA (nếu đã ký), là toàn bộ thỏa thuận. Thông báo gửi tới địa chỉ email đã đăng ký.</p>",
+    "contact": "Câu hỏi về các Điều khoản này: hello@lacastay.com (email liên hệ tạm thời — thay bằng email hỗ trợ của bạn trước khi ra mắt)."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Chính sách Quyền riêng tư — LacaStay"
+    },
+    "hero": {
+      "title": "Chính sách Quyền riêng tư",
+      "sub": "Cập nhật lần cuối: 11 tháng 10, 2026",
+      "disclaimer": "Các tài liệu này chỉ nhằm mục đích cung cấp thông tin, không phải tư vấn pháp lý."
+    },
+    "s1t": "1. Chúng tôi là ai",
+    "s1b": "<p>LacaStay LLC (\"LacaStay,\" \"chúng tôi\") cung cấp dịch vụ lễ tân giọng nói AI và tự động hóa đặt lịch cho doanh nghiệp. Chúng tôi đóng vai trò nhà cung cấp dịch vụ/bên xử lý đối với dữ liệu khách hàng cuối của khách hàng doanh nghiệp, và là bên kiểm soát đối với dữ liệu tài khoản và website của chính mình.</p><p>Liên hệ về quyền riêng tư: hello@lacastay.com (email liên hệ tạm thời — thay bằng email riêng tư của bạn trước khi ra mắt).</p>",
+    "s2t": "2. Dữ liệu chúng tôi thu thập",
+    "s2b": "<p>Chúng tôi thu thập các nhóm dữ liệu sau:</p><ul><li><strong>Dữ liệu tài khoản & định danh:</strong> tên doanh nghiệp, tên người liên hệ, email, số điện thoại, địa chỉ thanh toán.</li><li><strong>Dữ liệu thanh toán:</strong> do nhà cung cấp thanh toán xử lý; chúng tôi chỉ lưu token, không bao giờ lưu toàn bộ số thẻ.</li><li><strong>Bản ghi âm và bản ghi chép cuộc gọi:</strong> âm thanh các cuộc gọi do AI xử lý và bản ghi chép do máy tạo ra.</li><li><strong>Nội dung SMS:</strong> tin nhắn gửi và nhận qua Dịch vụ.</li><li><strong>Số điện thoại khách hàng cuối:</strong> số khách hàng của bạn cung cấp khi đặt lịch, thu thập thay mặt bạn.</li><li><strong>Dữ liệu sử dụng & kỹ thuật:</strong> mức dùng tính năng, siêu dữ liệu cuộc gọi (thời lượng, thời gian), dữ liệu thiết bị và nhật ký.</li><li><strong>Cookie & dữ liệu thiết bị:</strong> xem Mục 11.</li></ul><p>Chúng tôi thu thập âm thanh một cách rõ ràng: mọi cuộc gọi do AI xử lý đều có thể được ghi âm, như đã công bố ngay trong cuộc gọi.</p>",
+    "s3t": "3. Cách chúng tôi dùng dữ liệu",
+    "s3b": "<p>Chúng tôi chỉ dùng dữ liệu cho các mục đích sau:</p><ul><li>Cung cấp Dịch vụ — thực hiện và trả lời cuộc gọi, đặt lịch hẹn, gửi nhắc hẹn.</li><li>Thanh toán và quản trị tài khoản.</li><li>Cải thiện sản phẩm và xử lý sự cố — tổng hợp hoặc ẩn danh khi có thể.</li><li>Hỗ trợ khách hàng.</li><li>Marketing — chỉ khi bạn đã đồng ý opt-in.</li></ul><p>Chúng tôi không dùng dữ liệu của khách hàng này để huấn luyện mô hình AI phục vụ khách hàng khác.</p>",
+    "s4t": "4. Cam kết về dữ liệu SMS",
+    "s4b": "<p>Thông tin di động sẽ không được chia sẻ với bên thứ ba hay công ty liên kết cho mục đích marketing hoặc quảng cáo. Dữ liệu opt-in nhắn tin và sự đồng ý sẽ không được chia sẻ với bất kỳ bên thứ ba nào.</p>",
+    "s5t": "5. Nhà thầu phụ",
+    "s5b": "<p>Chúng tôi thuê các nhà thầu phụ đã thẩm định để cung cấp Dịch vụ — lưu trữ đám mây, viễn thông, voice AI, thanh toán, email và phân tích. Danh sách hiện tại được công bố tại trang <a href=\"subprocessors.html\">Nhà thầu phụ</a>, gồm tên, mục đích và vị trí của từng nhà cung cấp. Mọi nhà thầu phụ đều bị ràng buộc bởi thỏa thuận xử lý dữ liệu, giới hạn việc dùng thông tin cá nhân trong phạm vi cung cấp dịch vụ.</p>",
+    "s6t": "6. Công bố về Chia sẻ & \"Bán/Chia sẻ\" Dữ liệu",
+    "s6b": "<p>Chúng tôi không \"bán\" thông tin cá nhân theo định nghĩa của CCPA/CPRA, và không \"chia sẻ\" thông tin cá nhân cho quảng cáo hành vi đa ngữ cảnh. Chúng tôi tôn trọng tín hiệu từ chối Global Privacy Control (GPC) trên website.</p>",
+    "s7t": "7. Quyền riêng tư của bạn",
+    "s7b": "<p>Tùy theo bang bạn sinh sống, bạn có thể có quyền:</p><ul><li>Biết chúng tôi thu thập thông tin cá nhân gì và dùng ra sao (quyền được biết / truy cập).</li><li>Yêu cầu xóa thông tin cá nhân của mình.</li><li>Yêu cầu sửa thông tin không chính xác.</li><li>Từ chối việc bán/chia sẻ thông tin cá nhân.</li><li>Hạn chế việc dùng thông tin cá nhân nhạy cảm (California).</li><li>Nhận dữ liệu của mình ở định dạng di động được.</li><li>Không bị phân biệt đối xử vì thực hiện các quyền này.</li></ul><p>Gửi yêu cầu qua hello@lacastay.com hoặc mẫu liên hệ. Chúng tôi xác minh danh tính trước khi xử lý và trả lời trong 45 ngày theo luật California. Nếu yêu cầu của bạn liên quan đến dữ liệu chúng tôi giữ thay mặt một khách hàng doanh nghiệp, chúng tôi sẽ hướng bạn tới doanh nghiệp đó khi phù hợp.</p>",
+    "s8t": "8. Thông báo Ghi âm Cuộc gọi",
+    "s8b": "<p>Cuộc gọi do AI xử lý có thể được ghi âm để đảm bảo độ chính xác đặt lịch và chất lượng. Tác nhân AI sẽ thông báo cuộc gọi đang được ghi âm ngay đầu cuộc gọi khi luật yêu cầu. Mười hai bang — bao gồm California (Bộ luật Hình sự Cal. § 632), Florida, Maryland, Virginia và Connecticut — yêu cầu đồng thuận hai bên/các bên để ghi âm cuộc gọi; tại các bang này thông báo luôn được đưa ra trước khi ghi âm bắt đầu.</p>",
+    "s9t": "9. Lưu trữ Dữ liệu",
+    "s9b": "<ul><li>Bản ghi âm cuộc gọi: 90 ngày, sau đó xóa.</li><li>Bản ghi chép cuộc gọi và nhật ký SMS: 1 năm.</li><li>Dữ liệu tài khoản: trong suốt thời gian tài khoản tồn tại, cộng thêm 2 năm sau khi đóng.</li><li>Token thanh toán: theo yêu cầu của nhà cung cấp thanh toán.</li><li>Bản sao lưu: tối đa 90 ngày theo cơ chế cuốn chiếu.</li></ul><p>Sau khi xóa tài khoản, thông tin cá nhân được xóa hoặc ẩn danh theo lịch này, trừ khi luật yêu cầu lưu lâu hơn.</p>",
+    "s10t": "10. Bảo mật Dữ liệu",
+    "s10b": "<p>Chúng tôi bảo vệ thông tin cá nhân bằng các biện pháp tiêu chuẩn ngành: mã hóa khi truyền (TLS 1.2+) và khi lưu trữ (AES-256), phân quyền truy cập theo vai trò, xác thực đa yếu tố cho hệ thống nhân viên, và nhật ký kiểm toán toàn diện. Không phương thức truyền hay lưu trữ nào an toàn tuyệt đối, và chúng tôi không thể đảm bảo an toàn 100%.</p>",
+    "s11t": "11. Cookie & Theo dõi",
+    "s11b": "<p>Website của chúng tôi dùng cookie thực sự cần thiết (đăng nhập, tùy chọn ngôn ngữ) và — khi bạn đồng ý — cookie phân tích để hiểu cách dùng trang. Bạn có thể tắt cookie không thiết yếu trong trình duyệt; trang vẫn dùng được. Chúng tôi tôn trọng tín hiệu Global Privacy Control như một yêu cầu từ chối bán/chia sẻ.</p>",
+    "s12t": "12. Trẻ em",
+    "s12b": "<p>Dịch vụ là công cụ doanh-nghiệp-với-doanh-nghiệp, không hướng tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập thông tin cá nhân của trẻ dưới 13 tuổi. Khi luật bang mở rộng bảo vệ cho trẻ vị thành niên dưới 16 hoặc 18 tuổi (ví dụ giới hạn bán dữ liệu hay quảng cáo nhắm mục tiêu), chúng tôi áp dụng các biện pháp bảo vệ đó.</p>",
+    "s13t": "13. Chuyển dữ liệu Quốc tế",
+    "s13b": "<p>Dữ liệu khách hàng được xử lý tại Hoa Kỳ. Nếu dữ liệu từ Khu vực Kinh tế Châu Âu hoặc Vương quốc Anh được chuyển sang Mỹ, chúng tôi dùng các biện pháp bảo vệ phù hợp như Điều khoản Hợp đồng Chuẩn, và sẽ đánh giá tham gia Khung Bảo mật Dữ liệu EU–Mỹ khi phạm vi quốc tế của chúng tôi mở rộng.</p>",
+    "s14t": "14. Thay đổi Chính sách này",
+    "s14b": "<p>Chúng tôi sẽ thông báo cho bạn về thay đổi quan trọng của chính sách này qua email và đăng chính sách cập nhật kèm ngày hiệu lực mới ít nhất 30 ngày trước khi có hiệu lực.</p>",
+    "s15t": "15. Thông báo riêng theo Bang",
+    "s15b": "<p><strong>California (CCPA/CPRA):</strong> Cư dân California có các quyền nêu tại Mục 7. Chúng tôi không bán thông tin cá nhân. Theo luật \"Shine the Light\" của California, bạn có thể yêu cầu thông tin về việc tiết lộ thông tin cá nhân cho mục đích marketing trực tiếp — chúng tôi không thực hiện việc tiết lộ nào như vậy.</p><p><strong>Các bang khác:</strong> Tính đến 2026, 19 bang đã có luật riêng tư toàn diện có hiệu lực (bao gồm Virginia, Colorado, Connecticut, Utah và Texas). Cư dân các bang này có quyền tương tự như nêu tại Mục 7; gửi yêu cầu theo hướng dẫn tại đó.</p>",
+    "contact": "Câu hỏi về quyền riêng tư hoặc yêu cầu thực hiện quyền: hello@lacastay.com (email liên hệ tạm thời — thay bằng email riêng tư của bạn trước khi ra mắt)."
+  },
+  "dpa": {
+    "meta": {
+      "title": "Phụ lục Xử lý Dữ liệu — LacaStay"
+    },
+    "hero": {
+      "title": "Phụ lục Xử lý Dữ liệu",
+      "sub": "Cập nhật lần cuối: 11 tháng 10, 2026. DPA này là một phần của Điều khoản Dịch vụ khi các bên đã ký."
+    },
+    "s1t": "1. Các bên & Phạm vi",
+    "s1b": "<p>Phụ lục Xử lý Dữ liệu (\"DPA\") này được ký giữa LacaStay LLC (\"Bên Xử lý\") và khách hàng doanh nghiệp (\"Bên Kiểm soát\") đã ký kết. DPA áp dụng cho dữ liệu cá nhân mà Bên Xử lý xử lý thay mặt Bên Kiểm soát qua Dịch vụ (\"Dữ liệu Cá nhân của Khách hàng\"), bao gồm tên, số điện thoại khách hàng cuối, bản ghi âm, bản ghi chép cuộc gọi và nội dung SMS.</p>",
+    "s2t": "2. Đối tượng & Thời hạn Xử lý",
+    "s2b": "<p>Việc xử lý bao gồm lưu trữ, truyền tải và phân tích Dữ liệu Cá nhân của Khách hàng để cung cấp dịch vụ lễ tân AI và đặt lịch, trong suốt thời gian thuê bao cộng thêm 30 ngày xuất dữ liệu sau chấm dứt như nêu trong Điều khoản.</p>",
+    "s3t": "3. Nghĩa vụ của Bên Xử lý",
+    "s3b": "<ul><li>Chỉ xử lý Dữ liệu Cá nhân của Khách hàng theo chỉ dẫn bằng văn bản của Bên Kiểm soát và chỉ trong phạm vi cần thiết để cung cấp Dịch vụ.</li><li>Đảm bảo nhân sự có quyền truy cập bị ràng buộc bởi nghĩa vụ bảo mật.</li><li>Áp dụng các biện pháp kỹ thuật và tổ chức phù hợp (xem Mục 5).</li><li>Không dùng Dữ liệu Cá nhân của Khách hàng để huấn luyện mô hình phục vụ khách hàng khác.</li><li>Xóa hoặc trả lại Dữ liệu Cá nhân của Khách hàng khi kết thúc hợp đồng theo lịch lưu trữ.</li></ul>",
+    "s4t": "4. Nhà thầu phụ",
+    "s4b": "<p>Bên Kiểm soát chấp thuận các nhà thầu phụ liệt kê tại trang <a href=\"subprocessors.html\">Nhà thầu phụ</a> của chúng tôi. Chúng tôi sẽ thông báo ít nhất 30 ngày trước khi thêm hoặc thay nhà thầu phụ; Bên Kiểm soát có thể phản đối vì lý do chính đáng về bảo vệ dữ liệu, và nếu không giải quyết được, Bên Kiểm soát có thể chấm dứt các dịch vụ bị ảnh hưởng.</p>",
+    "s5t": "5. Biện pháp Bảo mật",
+    "s5b": "<p>Chúng tôi duy trì mã hóa khi truyền (TLS 1.2+) và khi lưu trữ (AES-256), phân quyền truy cập theo vai trò, xác thực đa yếu tố, nhật ký kiểm toán, và lưu trữ trên hạ tầng đã kiểm toán SOC 2.</p>",
+    "s6t": "6. Thông báo Vi phạm Dữ liệu",
+    "s6b": "<p>Khi phát hiện vi phạm dữ liệu cá nhân ảnh hưởng đến Dữ liệu Cá nhân của Khách hàng, chúng tôi sẽ thông báo cho Bên Kiểm soát không chậm trễ vô lý và trong mọi trường hợp trong vòng 72 giờ, kèm bản chất vi phạm, nhóm dữ liệu bị ảnh hưởng và các bước khắc phục đã thực hiện.</p>",
+    "s7t": "7. Hỗ trợ Quyền của Chủ thể Dữ liệu",
+    "s7b": "<p>Chúng tôi sẽ hỗ trợ Bên Kiểm soát thực hiện yêu cầu của chủ thể dữ liệu (truy cập, xóa, sửa, di chuyển dữ liệu) bằng hỗ trợ kỹ thuật và tổ chức phù hợp, và sẽ chuyển cho Bên Kiểm soát mọi yêu cầu như vậy nhận được trực tiếp.</p>",
+    "s8t": "8. Kiểm toán",
+    "s8b": "<p>Mỗi năm một lần, Bên Kiểm soát (hoặc kiểm toán viên độc lập do Bên Kiểm soát chỉ định) có thể kiểm toán việc tuân thủ DPA của chúng tôi với thông báo bằng văn bản 30 ngày, trong giờ hành chính, không gây gián đoạn bất hợp lý cho hoạt động. Chúng tôi sẽ cung cấp báo cáo SOC 2 và chứng nhận liên quan thay cho kiểm tra tại chỗ khi phù hợp.</p>",
+    "s9t": "9. Chuyển dữ liệu Quốc tế",
+    "s9b": "<p>Dữ liệu Cá nhân của Khách hàng được xử lý tại Hoa Kỳ. Việc chuyển ra ngoài Mỹ/EEA/Vương quốc Anh chỉ thực hiện theo cơ chế chuyển được phê duyệt như Điều khoản Hợp đồng Chuẩn.</p>",
+    "s10t": "10. Thời hạn",
+    "s10b": "<p>DPA này có hiệu lực trong suốt thời gian chúng tôi xử lý Dữ liệu Cá nhân của Khách hàng thay mặt Bên Kiểm soát. Các nghĩa vụ của DPA vẫn tồn tại sau chấm dứt trong phạm vi dữ liệu còn trong hệ thống của chúng tôi trong thời gian xóa.</p>"
+  },
+  "subprocessors": {
+    "meta": {
+      "title": "Nhà thầu phụ — LacaStay"
+    },
+    "hero": {
+      "title": "Nhà thầu phụ",
+      "sub": "Các nhà cung cấp bên thứ ba giúp chúng tôi cung cấp Dịch vụ. Cập nhật lần cuối: 11 tháng 10, 2026."
+    },
+    "note": "Danh sách này mang tính minh họa cho các nhóm nhà cung cấp mà LacaStay sử dụng. Hãy xác nhận danh sách hiện tại với LacaStay trước khi ký thỏa thuận doanh nghiệp.",
+    "th_name": "Nhà cung cấp",
+    "th_purpose": "Mục đích",
+    "th_location": "Vị trí dữ liệu",
+    "r1n": "Amazon Web Services (AWS)",
+    "r1p": "Lưu trữ & hạ tầng đám mây",
+    "r1l": "Hoa Kỳ",
+    "r2n": "Twilio",
+    "r2p": "Viễn thông & gửi SMS",
+    "r2l": "Hoa Kỳ",
+    "r3n": "Retell AI",
+    "r3p": "Nền tảng tác nhân giọng nói AI",
+    "r3l": "Hoa Kỳ",
+    "r4n": "Stripe",
+    "r4p": "Xử lý thanh toán",
+    "r4l": "Hoa Kỳ",
+    "r5n": "Postmark",
+    "r5p": "Email giao dịch",
+    "r5l": "Hoa Kỳ",
+    "r6n": "Plausible",
+    "r6p": "Phân tích website tôn trọng quyền riêng tư",
+    "r6l": "Liên minh Châu Âu",
+    "updates": "Chúng tôi cập nhật danh sách này khi nhà cung cấp thay đổi và thông báo cho khách hàng DPA 30 ngày trước khi thêm hoặc thay nhà thầu phụ, kèm quyền phản đối.",
+    "contact": "Câu hỏi về các nhà thầu phụ của chúng tôi: hello@lacastay.com (email liên hệ tạm thời)."
+  },
+  "demo": {
+    "meta": {
+      "title": "Demo trực tiếp — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Demo trực tiếp",
+      "title": "Xem LacaStay hoạt động",
+      "sub": "Gọi ngay cho lễ tân AI demo của chúng tôi — hoặc xem một ngày đặt lịch thật do AI xử lý."
+    },
+    "call": {
+      "title": "Gọi cho lễ tân AI demo",
+      "sub": "AI trả lời 24/7 và đặt lịch hẹn y như khi làm cho doanh nghiệp của bạn.",
+      "number": "(301) 301-3852",
+      "sample": "Số mẫu — thay bằng số demo thật trước khi ra mắt.",
+      "hint": "Cứ gọi thử. Hỏi về dịch vụ, giá cả, hoặc đặt một lịch hẹn giả."
+    },
+    "sched": {
+      "title": "Một ngày thật, do AI xử lý",
+      "sub": "Lịch mẫu từ ba doanh nghiệp đang dùng LacaStay."
+    },
+    "tab": {
+      "salon": "Salon Nail",
+      "spa": "Spa",
+      "rental": "Cho thuê Nghỉ dưỡng"
+    },
+    "sum": {
+      "bookings": "lịch hẹn hôm nay",
+      "afterhours": "lịch ngoài giờ được trả lời",
+      "recovered": "cuộc gọi nhỡ được cứu",
+      "inquiries": "yêu cầu được trả lời"
+    },
+    "bk": {
+      "time": "Giờ",
+      "client": "Khách",
+      "service": "Dịch vụ",
+      "tech": "Chuyên viên",
+      "price": "Giá",
+      "status": "Trạng thái",
+      "source": "Nguồn",
+      "dates": "Ngày",
+      "guest": "Khách",
+      "guests": "Số khách",
+      "nights": "Số đêm",
+      "total": "Tổng"
+    },
+    "st": {
+      "completed": "Hoàn thành",
+      "in-progress": "Đang thực hiện",
+      "confirmed": "Đã xác nhận",
+      "reminder-sent": "Đã gửi nhắc hẹn",
+      "checked-in": "Đã nhận phòng",
+      "arriving-today": "Đến hôm nay",
+      "inquiry": "Đang hỏi"
+    },
+    "src": {
+      "ai": "Cuộc gọi AI"
+    },
+    "recover": {
+      "title": "Cuộc gọi nhỡ, được cứu lại",
+      "text": "Mỗi huy hiệu 'Cuộc gọi AI' ở trên là một lịch hẹn lẽ ra đã rơi vào hộp thư thoại — và vào tay đối thủ. LacaStay trả lời, đặt lịch và theo dõi trong khi bạn làm việc."
+    },
+    "form": {
+      "title": "Yêu cầu demo riêng",
+      "sub": "Cho chúng tôi biết về doanh nghiệp của bạn, chúng tôi sẽ dẫn bạn qua một cuộc gọi trực tiếp.",
+      "name": "Họ tên",
+      "business": "Tên doanh nghiệp",
+      "phone": "Số điện thoại",
+      "industry": "Ngành nghề",
+      "opt_salon": "Salon nail",
+      "opt_spa": "Spa / med spa",
+      "opt_rental": "Cho thuê nghỉ dưỡng",
+      "submit": "Yêu cầu demo",
+      "success": "Cảm ơn! Chúng tôi sẽ gọi cho bạn trong một ngày làm việc để xếp lịch demo.",
+      "note": "Chỉ demo giao diện — không có dữ liệu nào được gửi đi."
+    }
+  }
+}

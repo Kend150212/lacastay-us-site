@@ -1,0 +1,397 @@
+{
+  "pricing": {
+    "meta": {
+      "title": "Pricing — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Pricing",
+      "title": "One flat rate. Every call answered.",
+      "sub": "Transparent pricing, published right here — no sales calls, no hidden fees, no per-minute games.",
+      "note": "All plans billed monthly. No contracts, cancel anytime."
+    },
+    "t1": {
+      "name": "Starter",
+      "price": "$99",
+      "per": "/month",
+      "desc": "For single-location businesses getting started with AI answering.",
+      "f1": "24/7 AI phone answering",
+      "f2": "Instant booking into your calendar",
+      "f3": "Appointment reminders by SMS",
+      "f4": "1 location, 1 phone number",
+      "f5": "Call transcripts & summaries",
+      "f6": "Email support",
+      "cta": "Start with Starter"
+    },
+    "t2": {
+      "badge": "Most popular",
+      "name": "Growth",
+      "price": "$199",
+      "per": "/month",
+      "desc": "For growing businesses that want every call to convert.",
+      "f1": "Everything in Starter",
+      "f2": "Review requests after every visit",
+      "f3": "Upsell scripts & rebooking prompts",
+      "f4": "Multilingual callers (English, Spanish & more)",
+      "f5": "Missed-call text-back",
+      "f6": "Priority support",
+      "cta": "Start with Growth"
+    },
+    "t3": {
+      "name": "Multi-location",
+      "price": "Custom",
+      "per": "tailored quote",
+      "desc": "For spa groups, salon chains, and property managers.",
+      "f1": "Everything in Growth",
+      "f2": "Volume pricing per location",
+      "f3": "Centralized dashboard & reporting",
+      "f4": "Dedicated onboarding specialist",
+      "f5": "Custom integrations & API access",
+      "f6": "SSO & advanced security options",
+      "cta": "Talk to us"
+    },
+    "anchor": {
+      "eyebrow": "Why it pays for itself",
+      "title": "Anchored against humans, not software",
+      "text": "A front-desk hire costs about $2,600/month. Human answering services charge $219–$309/month for a few hundred minutes. LacaStay answers every call, books every appointment, and follows up on every no-show — for less than the cost of a single missed booking."
+    },
+    "compare": {
+      "title": "LacaStay vs. the alternatives",
+      "sub": "What you actually get for your money.",
+      "col_feature": "Feature",
+      "col_lacastay": "LacaStay Growth",
+      "col_ruby": "Ruby",
+      "col_smithai": "Smith.ai",
+      "col_podium": "Podium",
+      "r1f": "24/7 AI call answering",
+      "r1l": "Included, unlimited",
+      "r1r": "Human minutes only",
+      "r1s": "Human agents only",
+      "r1p": "Add-on",
+      "r2f": "Books appointments automatically",
+      "r2l": "Yes, into your calendar",
+      "r2r": "Manual handoff",
+      "r2s": "Manual handoff",
+      "r2p": "Yes",
+      "r3f": "SMS reminders included",
+      "r3l": "Yes",
+      "r3r": "Add-on",
+      "r3s": "No",
+      "r3p": "Yes",
+      "r4f": "Starting price",
+      "r4l": "$199/mo",
+      "r4r": "~$219/mo",
+      "r4s": "~$285/mo",
+      "r4p": "$399/mo",
+      "note": "Competitor prices are approximate 2026 published figures and may vary. Comparison is illustrative."
+    },
+    "guarantee": {
+      "title": "No contracts. Cancel anytime.",
+      "text": "Month-to-month billing on every plan. If LacaStay isn't paying for itself, cancel in two clicks — your data stays exportable for 30 days, no retention calls, no cancellation fees."
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": "Is there a contract or setup fee?",
+      "a1": "No. Every plan is month-to-month with no setup fee and no cancellation fee. Cancel anytime from your dashboard; your plan runs to the end of the billing period.",
+      "q2": "How many calls are included?",
+      "a2": "Starter includes up to 300 AI-answered calls per month; Growth includes up to 750. If you consistently need more, we'll move you to a higher allowance — never a surprise bill.",
+      "q3": "Will callers know they're talking to an AI?",
+      "a3": "Yes. LacaStay introduces itself on every call — 'Hi, I'm the LacaStay assistant for [your business]' — as required by state AI-disclosure laws. Callers consistently describe the experience as natural and helpful.",
+      "q4": "Does it work with my booking software?",
+      "a4": "LacaStay syncs with major salon, spa, and property-management calendars, and works with Google Calendar out of the box. If you take bookings by phone today, we can take them for you tomorrow.",
+      "q5": "What happens to my data if I cancel?",
+      "a5": "You can export your contacts, call logs, and booking history in CSV format at any time, including for 30 days after cancellation. After that window, your data is deleted per our retention schedule."
+    },
+    "cta": {
+      "title": "Ready to stop missing calls?",
+      "text": "Hear the AI handle a real booking call, then decide.",
+      "btn": "Book a live demo"
+    }
+  },
+  "compliance": {
+    "meta": {
+      "title": "Compliance & Trust — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Compliance & Trust",
+      "title": "Compliance you can verify",
+      "sub": "An AI receptionist touches regulated territory — phone calls, text messages, recordings, and customer data. Here's exactly how LacaStay handles each one."
+    },
+    "b1t": "TCPA-compliant voice AI",
+    "b1d": "AI voice calls follow FCC consent, hours, and opt-out rules.",
+    "b2t": "10DLC-registered SMS",
+    "b2d": "Business texting registered with The Campaign Registry.",
+    "b3t": "AI identifies itself",
+    "b3d": "Every call opens with a clear AI disclosure.",
+    "b4t": "Encrypted end to end",
+    "b4d": "TLS in transit, AES-256 at rest, audited access.",
+    "b5t": "Call-recording consent",
+    "b5d": "Recording announced where two-party consent applies.",
+    "b6t": "SOC 2 infrastructure",
+    "b6d": "Hosted on SOC 2-audited cloud infrastructure.",
+    "tcpa": {
+      "title": "TCPA: AI voice, done by the book",
+      "intro": "The FCC's February 2024 ruling treats AI-generated voices as regulated calls under the Telephone Consumer Protection Act. LacaStay is built around that reality:",
+      "l1": "Prior express consent is required before AI voice calls — marketing calls require prior express written consent.",
+      "l2": "Calling hours respected: 8 a.m.–9 p.m. in the recipient's local time zone.",
+      "l3": "Instant opt-out: STOP and similar keywords are honored immediately.",
+      "l4": "National DNC Registry scrubbing plus an internal do-not-call list.",
+      "l5": "Our Terms push TCPA duties onto each business customer — you may only call or text recipients who consented, and abusive accounts are suspended."
+    },
+    "dlc": {
+      "title": "10DLC: registered business texting",
+      "text": "All application-to-person SMS runs through registered 10DLC campaigns with The Campaign Registry. That means verified business identity, declared message types, and published opt-in/opt-out language — so your reminders actually get delivered instead of filtered as spam."
+    },
+    "ai": {
+      "title": "AI disclosure: it always introduces itself",
+      "text": "California's B.O.T. Act and Utah's AI Policy Act require AI agents to disclose their artificial identity in consumer interactions. LacaStay opens every call with a clear introduction — 'Hi, I'm the LacaStay AI assistant for [business name]' — and answers truthfully if a caller asks whether it's human."
+    },
+    "security": {
+      "title": "Data security",
+      "l1": "Encryption in transit (TLS 1.2+) and at rest (AES-256).",
+      "l2": "Role-based access controls, multi-factor authentication, and full audit logging for staff access.",
+      "l3": "Hosted on SOC 2-audited cloud infrastructure.",
+      "l4": "Customer data is never used to train models serving other customers."
+    },
+    "recording": {
+      "title": "Call-recording consent",
+      "text": "Calls may be recorded for quality and booking accuracy. In the 12 two-party/all-party consent states — including California — the AI announces that the call is being recorded before proceeding. See our Privacy Policy for the full notice."
+    },
+    "docs": {
+      "title": "The paperwork",
+      "text": "The full legal details live here:",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "dpa": "Data Processing Addendum",
+      "sub": "Sub-processors",
+      "note": "Have a security questionnaire? Contact us and we'll complete it."
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Terms of Service — LacaStay"
+    },
+    "hero": {
+      "title": "Terms of Service",
+      "sub": "Last updated: October 11, 2026",
+      "disclaimer": "These documents are provided for informational purposes and do not constitute legal advice."
+    },
+    "s1t": "1. Acceptance of Terms",
+    "s1b": "<p>These Terms of Service (\"Terms\") form a binding agreement between LacaStay LLC (\"LacaStay,\" \"we,\" \"us\") and the business entity that registers for the Service (\"Customer,\" \"you\"). By creating an account, clicking \"I agree,\" or using the Service, you accept these Terms.</p><p>You represent that you are authorized to bind your business, are at least 18 years old, and are registering on behalf of a business — the Service is not offered to individual consumers.</p>",
+    "s2t": "2. Description of Service",
+    "s2b": "<p>LacaStay provides an AI voice receptionist and booking-automation service for nail salons, spas, and vacation-rental businesses. The Service answers inbound calls, books appointments, sends reminders, and handles related communications on your behalf.</p><p>The Service does not guarantee any particular business outcome, call volume, or booking result, and uptime is not absolute. The Service is not for emergency use and must not be used to place emergency calls.</p>",
+    "s3t": "3. Account Registration & Security",
+    "s3b": "<p>You must provide accurate business information when registering. You are responsible for safeguarding your login credentials and for all activity under your account. Notify us promptly of any unauthorized use. One account per business location group, unless otherwise agreed.</p>",
+    "s4t": "4. Subscription, Fees & Billing",
+    "s4b": "<p>Plans are billed monthly or annually in USD, in advance. Subscriptions auto-renew for the same term until cancelled.</p><ul><li>We will notify you at least 30 days before each renewal.</li><li>Price changes take effect with at least 30 days' notice and apply from your next renewal.</li><li>If payment fails, we will retry and notify you; the Service may be suspended after a 7-day grace period.</li><li>Fees are non-refundable except as required by law. Cancelling stops future charges; your plan remains active until the end of the paid term.</li></ul>",
+    "s5t": "5. Free Trials & Promotional Offers",
+    "s5b": "<p>Trial access is limited to the features and period stated in the offer and converts to a paid plan at expiry unless you cancel. After a trial lapses without conversion, your trial data is retained for 30 days for export, then deleted.</p>",
+    "s6t": "6. Acceptable Use Policy",
+    "s6b": "<p>You must not use the Service to:</p><ul><li>Place calls or send texts to recipients without the consent required by the TCPA, the Telemarketing Sales Rule, or applicable state laws — you are solely responsible for obtaining and documenting consent.</li><li>Send spam, engage in harassment, or conduct unlawful, deceptive, or harmful activity.</li><li>Scrape, reverse-engineer, or attempt to extract the Service's models, prompts, or source code.</li><li>Resell the Service or use it for competitive benchmarking without our written consent.</li><li>Impersonate any person or business, or misrepresent the AI as a human employee.</li></ul><p>We may suspend accounts engaged in TCPA abuse or other violations immediately and without prior notice.</p>",
+    "s7t": "7. Customer Data Ownership & Portability",
+    "s7b": "<p>You own your business data — contacts, call logs, recordings, transcripts, and bookings (\"Customer Data\"). You grant LacaStay a worldwide, non-exclusive license to host, process, and transmit Customer Data solely to provide and improve the Service for you.</p><p>You may export Customer Data in CSV format at any time during your subscription and for 30 days after termination.</p>",
+    "s8t": "8. AI Features & Outputs",
+    "s8b": "<p>The Service uses artificial intelligence to conduct phone conversations. You acknowledge that:</p><ul><li>Calls are handled by an AI agent that identifies itself as AI on every call.</li><li>Transcriptions and summaries are generated automatically and may contain errors; we do not guarantee their accuracy.</li><li>You own the outputs generated for your account (transcripts, summaries, booking records).</li><li>You must not use the AI to deceive callers or for any unlawful purpose.</li><li>Your Customer Data is not used to train models serving other customers.</li></ul>",
+    "s9t": "9. Intellectual Property",
+    "s9b": "<p>LacaStay retains all right, title, and interest in the Service, including software, models, prompts, and trademarks. You receive a limited, non-exclusive, non-transferable license to use the Service during your subscription. You may not copy, modify, or create derivative works of the Service.</p>",
+    "s10t": "10. Privacy & Data Processing",
+    "s10b": "<p>Our collection and use of personal information is governed by our <a href=\"privacy.html\">Privacy Policy</a>. Business customers that are subject to data-protection laws may enter into our <a href=\"dpa.html\">Data Processing Addendum</a>, which is incorporated by reference where executed.</p>",
+    "s11t": "11. Disclaimers of Warranty",
+    "s11b": "<p>THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE.\" TO THE MAXIMUM EXTENT PERMITTED BY LAW, LACASTAY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</p>",
+    "s12t": "12. Limitation of Liability",
+    "s12b": "<p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, LACASTAY WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES. LACASTAY'S TOTAL AGGREGATE LIABILITY UNDER THESE TERMS WILL NOT EXCEED THE FEES YOU PAID IN THE 12 MONTHS BEFORE THE CLAIM AROSE.</p>",
+    "s13t": "13. Indemnification",
+    "s13b": "<p>You will indemnify and hold harmless LacaStay from claims arising from your misuse of the Service, your content, or your violation of law — including TCPA claims arising from calls or texts you directed. We will indemnify you against third-party claims that the Service infringes their intellectual-property rights. Indemnification obligations are subject to the liability cap in Section 12.</p>",
+    "s14t": "14. Suspension & Termination",
+    "s14b": "<p>Either party may terminate for convenience with 30 days' written notice. Either party may terminate for material breach with 15 days' notice and opportunity to cure. We may suspend or terminate immediately for non-payment (after the grace period in Section 4), TCPA abuse, or other AUP violations.</p><p>After termination, you have a 30-day window to export Customer Data; afterwards it is deleted per our retention schedule. Sections 7, 9, 11, 12, 13, 15, 16, and 19 survive termination.</p>",
+    "s15t": "15. Governing Law",
+    "s15b": "<p>These Terms are governed by the laws of the State of Texas, without regard to conflict-of-law principles.</p>",
+    "s16t": "16. Dispute Resolution & Arbitration",
+    "s16b": "<p>Before filing any claim, the parties will attempt informal resolution for 30 days after written notice of the dispute. If unresolved, disputes will be settled by binding arbitration under the Federal Arbitration Act, on an individual basis — you waive any right to a jury trial and to participate in a class action.</p><p>You may opt out of arbitration by sending written notice to hello@lacastay.com within 30 days of first accepting these Terms.</p>",
+    "s17t": "17. SMS / TCPA Terms",
+    "s17b": "<p>LacaStay sends SMS/MMS messages on your behalf, including appointment reminders, booking confirmations, and review requests.</p><ul><li>Message frequency varies by your usage.</li><li>Message and data rates may apply.</li><li>Reply STOP to opt out of marketing messages; reply HELP for help.</li><li>Consent is collected when your customers provide their phone number for booking-related communications, or through explicit opt-in where required.</li><li>For questions about SMS, contact hello@lacastay.com.</li></ul>",
+    "s18t": "18. Changes to Terms",
+    "s18b": "<p>We may update these Terms from time to time. Material changes take effect 30 days after notice (by email or in-product notice). Continued use of the Service after the effective date constitutes acceptance.</p>",
+    "s19t": "19. General",
+    "s19b": "<p>Severability: if any provision is unenforceable, the rest remain in effect. Assignment: you may not assign these Terms without our consent; we may assign in connection with a merger or sale. Force majeure: neither party is liable for delays caused by events beyond reasonable control. These Terms, with any Order Form and the DPA (if executed), are the entire agreement. Notices go to the email addresses on file.</p>",
+    "contact": "Questions about these Terms: hello@lacastay.com."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy — LacaStay"
+    },
+    "hero": {
+      "title": "Privacy Policy",
+      "sub": "Last updated: October 11, 2026",
+      "disclaimer": "These documents are provided for informational purposes and do not constitute legal advice."
+    },
+    "s1t": "1. Who We Are",
+    "s1b": "<p>LacaStay LLC (\"LacaStay,\" \"we,\" \"us\") provides an AI voice receptionist and booking-automation service for businesses. We act as a service provider/processor for our business customers' end-customer data, and as a controller for our own account and website data.</p><p>Privacy contact: hello@lacastay.com.</p>",
+    "s2t": "2. Data We Collect",
+    "s2b": "<p>We collect the following categories of data:</p><ul><li><strong>Account & identity data:</strong> business name, contact name, email, phone number, billing address.</li><li><strong>Payment data:</strong> processed by our payment provider; we store only tokens, never full card numbers.</li><li><strong>Call recordings and transcripts:</strong> audio recordings of AI-handled calls and their machine-generated transcripts.</li><li><strong>SMS content:</strong> messages sent and received through the Service.</li><li><strong>End-customer phone numbers:</strong> numbers your customers provide when booking, collected on your behalf.</li><li><strong>Usage & telemetry data:</strong> feature usage, call metadata (duration, time), device and log data.</li><li><strong>Cookies & device data:</strong> see Section 11.</li></ul><p>We explicitly collect audio: every AI-handled call may be recorded, as disclosed on the call itself.</p>",
+    "s3t": "3. How We Use Data",
+    "s3b": "<p>We use data only for these purposes:</p><ul><li>Delivering the Service — placing and answering calls, booking appointments, sending reminders.</li><li>Billing and account administration.</li><li>Product improvement and troubleshooting — aggregated or de-identified where possible.</li><li>Customer support.</li><li>Marketing — only with your opt-in consent.</li></ul><p>We do not use one customer's data to train AI models serving other customers.</p>",
+    "s4t": "4. SMS Data Carve-Out",
+    "s4b": "<p>Mobile information will not be shared with third parties or affiliates for marketing or promotional purposes. Text messaging opt-in data and consent will not be shared with any third parties.</p>",
+    "s5t": "5. Sub-processors",
+    "s5b": "<p>We engage vetted sub-processors to provide the Service — cloud hosting, telephony, AI voice, payments, email, and analytics. The current list is published on our <a href=\"subprocessors.html\">Sub-processors</a> page, with each vendor's name, purpose, and location. Every sub-processor is bound by a data-processing agreement limiting use of personal information to providing its service.</p>",
+    "s6t": "6. Data Sharing & \"Sale/Sharing\" Disclosure",
+    "s6b": "<p>We do not \"sell\" personal information as defined by the CCPA/CPRA, and we do not \"share\" personal information for cross-context behavioral advertising. We honor Global Privacy Control (GPC) opt-out signals on our website.</p>",
+    "s7t": "7. Your Privacy Rights",
+    "s7b": "<p>Depending on your state, you may have the right to:</p><ul><li>Know what personal information we collect and how we use it (right to know / access).</li><li>Request deletion of your personal information.</li><li>Request correction of inaccurate information.</li><li>Opt out of sale/sharing of personal information.</li><li>Limit the use of sensitive personal information (California).</li><li>Receive your data in a portable format.</li><li>Not be discriminated against for exercising these rights.</li></ul><p>Submit requests via hello@lacastay.com or the contact form. We verify your identity before fulfilling requests and respond within 45 days as required by California law. If your request concerns data we hold on behalf of a business customer, we will direct you to that business where appropriate.</p>",
+    "s8t": "8. Call Recording Notice",
+    "s8b": "<p>AI-handled calls may be recorded for booking accuracy and quality assurance. The AI agent announces that the call is being recorded at the start of the call where required by law. Twelve states — including California (Cal. Penal Code § 632), Florida, Maryland, Virginia, and Connecticut — require two-party/all-party consent to record calls; in those states the announcement is always made before recording begins.</p>",
+    "s9t": "9. Data Retention",
+    "s9b": "<ul><li>Call recordings: 90 days, then deleted.</li><li>Call transcripts and SMS logs: 1 year.</li><li>Account data: for the life of the account, plus 2 years after closure.</li><li>Payment tokens: per our payment processor's requirements.</li><li>Backups: up to 90 days on a rolling basis.</li></ul><p>After account deletion, personal information is deleted or de-identified according to this schedule unless a longer retention is required by law.</p>",
+    "s10t": "10. Data Security",
+    "s10b": "<p>We protect personal information with industry-standard safeguards: encryption in transit (TLS 1.2+) and at rest (AES-256), role-based access controls, multi-factor authentication for staff systems, and comprehensive audit logging. No method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>",
+    "s11t": "11. Cookies & Tracking",
+    "s11b": "<p>Our website uses strictly-necessary cookies (login, language preference) and, with consent, analytics cookies to understand site usage. You can disable non-essential cookies in your browser; the site remains usable. We honor Global Privacy Control signals as an opt-out of sale/sharing.</p>",
+    "s12t": "12. Children",
+    "s12b": "<p>The Service is a business-to-business tool and is not directed at children under 13. We do not knowingly collect personal information from children under 13. Where state laws extend protections to minors under 16 or 18 (for example, limits on sale of data or targeted advertising), we apply those protections.</p>",
+    "s13t": "13. International Transfers",
+    "s13b": "<p>Customer data is processed in the United States. If data from the European Economic Area or the United Kingdom is transferred to the US, we use appropriate safeguards such as Standard Contractual Clauses, and we will assess participation in the EU-U.S. Data Privacy Framework as our international footprint evolves.</p>",
+    "s14t": "14. Changes to This Policy",
+    "s14b": "<p>We will notify you of material changes to this policy by email and by posting the updated policy with a new effective date at least 30 days before it takes effect.</p>",
+    "s15t": "15. State-Specific Notices",
+    "s15b": "<p><strong>California (CCPA/CPRA):</strong> California residents have the rights described in Section 7. We do not sell personal information. Under California's \"Shine the Light\" law, you may request information about disclosures of personal information for direct-marketing purposes — we make no such disclosures.</p><p><strong>Other states:</strong> As of 2026, 19 states have comprehensive privacy laws in effect (including Virginia, Colorado, Connecticut, Utah, and Texas). Residents of those states have substantially similar rights as described in Section 7; submit requests as described there.</p>",
+    "contact": "Privacy questions or rights requests: hello@lacastay.com."
+  },
+  "dpa": {
+    "meta": {
+      "title": "Data Processing Addendum — LacaStay"
+    },
+    "hero": {
+      "title": "Data Processing Addendum",
+      "sub": "Last updated: October 11, 2026. This DPA forms part of the Terms of Service where executed by the parties."
+    },
+    "s1t": "1. Parties & Scope",
+    "s1b": "<p>This Data Processing Addendum (\"DPA\") is between LacaStay LLC (\"Processor\") and the business customer (\"Controller\") that has executed it. It applies to personal data Processor handles on Controller's behalf through the Service (\"Customer Personal Data\"), including end-customer names, phone numbers, call recordings, transcripts, and SMS content.</p>",
+    "s2t": "2. Subject Matter & Duration",
+    "s2b": "<p>Processing covers hosting, transmitting, and analyzing Customer Personal Data to provide the AI receptionist and booking service, for the duration of the subscription plus the 30-day post-termination export window described in the Terms.</p>",
+    "s3t": "3. Processor Obligations",
+    "s3b": "<ul><li>Process Customer Personal Data only on Controller's documented instructions and only as necessary to provide the Service.</li><li>Ensure personnel with access are bound by confidentiality obligations.</li><li>Implement appropriate technical and organizational measures (see Section 5).</li><li>Not use Customer Personal Data to train models serving other customers.</li><li>Delete or return Customer Personal Data at the end of the engagement per the retention schedule.</li></ul>",
+    "s4t": "4. Sub-processors",
+    "s4b": "<p>Controller authorizes the sub-processors listed on our <a href=\"subprocessors.html\">Sub-processors</a> page. We will give at least 30 days' notice before adding or replacing a sub-processor; Controller may object on reasonable data-protection grounds, and if the objection cannot be resolved, Controller may terminate the affected services.</p>",
+    "s5t": "5. Security Measures",
+    "s5b": "<p>We maintain encryption in transit (TLS 1.2+) and at rest (AES-256), role-based access controls, multi-factor authentication, audit logging, and hosting on SOC 2-audited infrastructure.</p>",
+    "s6t": "6. Breach Notification",
+    "s6b": "<p>Upon becoming aware of a personal data breach affecting Customer Personal Data, we will notify Controller without undue delay and in any event within 72 hours, providing the nature of the breach, categories of data affected, and mitigation steps taken.</p>",
+    "s7t": "7. Data Subject Rights Assistance",
+    "s7b": "<p>We will assist Controller in fulfilling data-subject requests (access, deletion, correction, portability) by providing appropriate technical and organizational support, and will forward to Controller any such requests we receive directly.</p>",
+    "s8t": "8. Audits",
+    "s8b": "<p>Once per year, Controller (or an independent auditor it designates) may audit our compliance with this DPA on 30 days' written notice, during business hours, without unreasonably disrupting operations. We will make available relevant SOC 2 reports and certifications in lieu of on-site inspection where applicable.</p>",
+    "s9t": "9. International Transfers",
+    "s9b": "<p>Customer Personal Data is processed in the United States. Transfers outside the US/EEA/UK will be made only under an approved transfer mechanism such as Standard Contractual Clauses.</p>",
+    "s10t": "10. Term",
+    "s10b": "<p>This DPA remains in effect for as long as we process Customer Personal Data on Controller's behalf. Its obligations survive termination to the extent data remains in our systems during the deletion window.</p>"
+  },
+  "subprocessors": {
+    "meta": {
+      "title": "Sub-processors — LacaStay"
+    },
+    "hero": {
+      "title": "Sub-processors",
+      "sub": "The third-party vendors that help us deliver the Service. Last updated: October 11, 2026."
+    },
+    "note": "This list is illustrative of the vendor categories LacaStay uses. Confirm the current list with LacaStay before signing enterprise agreements.",
+    "th_name": "Vendor",
+    "th_purpose": "Purpose",
+    "th_location": "Data location",
+    "r1n": "Amazon Web Services (AWS)",
+    "r1p": "Cloud hosting & infrastructure",
+    "r1l": "United States",
+    "r2n": "Twilio",
+    "r2p": "Telephony & SMS delivery",
+    "r2l": "United States",
+    "r3n": "Retell AI",
+    "r3p": "AI voice agent platform",
+    "r3l": "United States",
+    "r4n": "Stripe",
+    "r4p": "Payment processing",
+    "r4l": "United States",
+    "r5n": "Postmark",
+    "r5p": "Transactional email",
+    "r5l": "United States",
+    "r6n": "Plausible",
+    "r6p": "Privacy-friendly website analytics",
+    "r6l": "European Union",
+    "updates": "We update this list when vendors change and give DPA customers 30 days' notice before adding or replacing a sub-processor, with a right to object.",
+    "contact": "Questions about our sub-processors: hello@lacastay.com (placeholder contact)."
+  },
+  "demo": {
+    "meta": {
+      "title": "Live Demo — LacaStay"
+    },
+    "hero": {
+      "eyebrow": "Live demo",
+      "title": "See LacaStay in action",
+      "sub": "Call our demo AI receptionist right now — or browse a real day of bookings it handled."
+    },
+    "call": {
+      "title": "Call our demo AI receptionist",
+      "sub": "It answers 24/7 and books appointments just like it would for your business.",
+      "number": "(301) 301-3852",
+      "sample": "Sample number — replace with the live demo line before launch.",
+      "hint": "Go ahead, call it. Ask about services, prices, or book a fake appointment."
+    },
+    "sched": {
+      "title": "A real day, handled by AI",
+      "sub": "Sample schedules from three businesses using LacaStay."
+    },
+    "tab": {
+      "salon": "Nail Salon",
+      "spa": "Spa",
+      "rental": "Vacation Rental"
+    },
+    "sum": {
+      "bookings": "bookings today",
+      "afterhours": "after-hours bookings answered",
+      "recovered": "missed calls recovered",
+      "inquiries": "inquiries answered"
+    },
+    "bk": {
+      "time": "Time",
+      "client": "Client",
+      "service": "Service",
+      "tech": "Specialist",
+      "price": "Price",
+      "status": "Status",
+      "source": "Source",
+      "dates": "Dates",
+      "guest": "Guest",
+      "guests": "Guests",
+      "nights": "Nights",
+      "total": "Total"
+    },
+    "st": {
+      "completed": "Completed",
+      "in-progress": "In progress",
+      "confirmed": "Confirmed",
+      "reminder-sent": "Reminder sent",
+      "checked-in": "Checked in",
+      "arriving-today": "Arriving today",
+      "inquiry": "Inquiry"
+    },
+    "src": {
+      "ai": "AI call"
+    },
+    "recover": {
+      "title": "Missed calls, recovered",
+      "text": "Every 'AI call' badge above is a booking that would have gone to voicemail — and to a competitor. LacaStay answers, books, and follows up while you work."
+    },
+    "form": {
+      "title": "Request a personal demo",
+      "sub": "Tell us about your business and we'll walk you through a live call.",
+      "name": "Full name",
+      "business": "Business name",
+      "phone": "Phone number",
+      "industry": "Industry",
+      "opt_salon": "Nail salon",
+      "opt_spa": "Spa / med spa",
+      "opt_rental": "Vacation rental",
+      "submit": "Request demo",
+      "success": "Thanks! We'll call you within one business day to schedule your demo.",
+      "note": "Front-end demo only — no data is sent anywhere."
+    }
+  }
+}

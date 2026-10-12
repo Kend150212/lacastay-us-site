@@ -1,0 +1,374 @@
+{
+  "about": {
+    "cta": {
+      "alt": "hoặc đặt lịch demo có hướng dẫn",
+      "btn": "Nghe demo trực tiếp",
+      "h": "Xem LacaStay làm được gì cho doanh nghiệp của bạn.",
+      "p": "Nghe lễ tân AI ngay trên số điện thoại của bạn — không cần đăng ký."
+    },
+    "hero": {
+      "cta1": "Nghe demo trực tiếp",
+      "cta2": "Cách hoạt động",
+      "eyebrow": "Về chúng tôi",
+      "h1": "Được xây bởi một người chủ, cho những người chủ.",
+      "imgalt": "Người sáng lập LacaStay",
+      "note": "",
+      "sub": "LacaStay là công ty do người sáng lập dẫn dắt với sứ mệnh quốc tế: mọi doanh nghiệp địa phương đều xứng đáng có một quầy lễ tân không bao giờ bỏ lỡ."
+    },
+    "meta": {
+      "desc": "LacaStay là công ty do người sáng lập trực tiếp dẫn dắt, xây dựng lễ tân AI cho doanh nghiệp địa phương trên toàn thế giới — tiệm nail, spa và cho thuê nghỉ dưỡng.",
+      "title": "Về LacaStay | Lễ Tân AI Cho Doanh Nghiệp Địa Phương"
+    },
+    "story": {
+      "imgalt": "Bảng điều khiển ứng dụng LacaStay",
+      "p1": "LacaStay bắt đầu từ một quan sát đơn giản: điện thoại reo đúng lúc bạn bận nhất. Mỗi cuộc gọi nhỡ là một khách hàng đã tìm đến nơi khác.",
+      "p2": "Chúng tôi xây dựng một lễ tân AI trả lời trong chưa đầy một giây, đặt lịch vào lịch thật của bạn và không bao giờ có ngày nghỉ — với mức giá mà một doanh nghiệp nhỏ thực sự chi trả được.",
+      "p3": "Hôm nay LacaStay phục vụ tiệm nail, spa và chủ nhà cho thuê trên khắp thế giới. Sứ mệnh của chúng tôi mang tầm quốc tế: mọi doanh nghiệp địa phương — ở bất kỳ quốc gia, bất kỳ ngôn ngữ nào — đều xứng đáng có một quầy lễ tân không bao giờ bỏ lỡ.",
+      "title": "Câu chuyện của chúng tôi"
+    },
+    "values": {
+      "title": "Giá trị của chúng tôi",
+      "v1d": "AI tự giới thiệu trong mọi cuộc gọi. Giá công khai. Không phí ẩn, không điều khoản mập mờ.",
+      "v1t": "Minh bạch",
+      "v2d": "TCPA, 10DLC, công khai AI và luật bảo mật không phải việc làm sau — chúng được xây ngay trong sản phẩm và trang pháp lý của chúng tôi.",
+      "v2t": "Tuân thủ",
+      "v3d": "Chúng tôi thiết kế cho chủ doanh nghiệp độc lập với một đến mười địa điểm — không phải chuỗi lớn. Giá công bằng, không hợp đồng dài hạn.",
+      "v3t": "Ưu tiên doanh nghiệp nhỏ"
+    }
+  },
+  "how": {
+    "book": {
+      "b1d": "Đọc lịch trống trực tiếp; ghi đặt lịch tức thì vào Booksy, Vagaro, Mindbody, Guesty và nhiều nền tảng khác.",
+      "b1t": "Đồng bộ hai chiều",
+      "b2d": "Thời lượng dịch vụ, giờ nghỉ giữa các lịch, giờ làm việc của nhân viên — đều được tuân thủ tự động.",
+      "b2t": "Thời lượng & giờ nghỉ",
+      "b3d": "Lịch bị hủy mở lại chỗ trống ngay — và khách trong danh sách chờ được mời trước.",
+      "b3t": "Đặt lại thông minh",
+      "sub": "LacaStay ghi vào sổ lịch thật của bạn — không bao giờ là một sổ song song phải đối chiếu.",
+      "title": "Đặt lịch & đồng bộ lịch"
+    },
+    "cta": {
+      "alt": "hoặc đặt lịch demo có hướng dẫn",
+      "btn": "Nghe demo trực tiếp",
+      "h": "Thử ngay trên số điện thoại của bạn.",
+      "p": "Gọi vào đường dây demo và nghe nó hoạt động — không cần đăng ký."
+    },
+    "flow": {
+      "s1d": "Bạn chuyển tiếp số điện thoại kinh doanh — hoặc dùng số riêng của LacaStay. Cuộc gọi được chuyển đến AI ngày đêm.",
+      "s1t": "Cuộc gọi đến",
+      "s2d": "\"Chào bạn, cảm ơn đã gọi đến doanh nghiệp của bạn — tôi là LacaStay, lễ tân AI. Tôi giúp gì được cho bạn?\" Công khai là AI trong mọi cuộc gọi, đúng quy định pháp luật.",
+      "s2t": "AI trả lời — và tự giới thiệu",
+      "s3d": "LacaStay kiểm tra lịch trống thật, khớp dịch vụ, nhân viên và khung giờ — rồi ghi đặt lịch vào phần mềm của bạn.",
+      "s3t": "AI đặt lịch hẹn",
+      "s4d": "Khách nhận tin nhắn xác nhận ngay lập tức, và bạn nhận bản tóm tắt cuộc gọi kèm bản ghi âm.",
+      "s4t": "Xác nhận qua SMS",
+      "sub": "Mọi cuộc gọi, mọi lúc — trong chưa đầy 1 giây.",
+      "title": "Quy trình lễ tân AI"
+    },
+    "hero": {
+      "cta1": "Nghe demo trực tiếp",
+      "cta2": "Xem giá",
+      "eyebrow": "Cách hoạt động",
+      "h1": "Điện thoại của bạn, luôn được trả lời. Sổ lịch của bạn, luôn đầy.",
+      "imgalt": "Màn hình lễ tân AI trong ứng dụng LacaStay",
+      "note": "Cài đặt trong vài phút — không cần phần cứng mới.",
+      "sub": "Bốn bước, một hệ thống: LacaStay nghe mọi cuộc gọi, đặt vào lịch thật, xác nhận qua SMS và bảo vệ mọi lịch hẹn khỏi no-show."
+    },
+    "intgrid": {
+      "i1": "Booksy",
+      "i2": "Vagaro",
+      "i3": "Fresha",
+      "i4": "Mindbody",
+      "i5": "Zenoti",
+      "i6": "Guesty",
+      "i7": "Hospitable",
+      "i8": "Google Calendar",
+      "sub": "Hoạt động với công cụ bạn đang dùng.",
+      "title": "Tích hợp"
+    },
+    "meta": {
+      "desc": "Xem lễ tân AI LacaStay trả lời cuộc gọi, đặt lịch hẹn, gửi nhắc nhở và đồng bộ với phần mềm đặt lịch của bạn.",
+      "title": "LacaStay Hoạt Động Như Thế Nào | Lễ Tân AI Cho Doanh Nghiệp Địa Phương"
+    },
+    "rem": {
+      "r1d": "Nhắc qua gọi + SMS trước mỗi lịch hẹn — đã chứng minh giúp giảm no-show 29–38%.",
+      "r1t": "Nhắc lịch tự động",
+      "r2d": "Thu cọc tùy chọn khi đặt lịch — cách mạnh nhất, giúp giảm no-show tới 65%.",
+      "r2t": "Giữ thẻ / thu cọc",
+      "r3d": "Chỗ trống do hủy được mời cho khách trong danh sách chờ trong vài giây — ghế không bao giờ ngồi không.",
+      "r3t": "Lấp chỗ hủy từ danh sách chờ",
+      "r4d": "Khách lỡ hẹn? LacaStay tự động nhắn mời đặt lại — không cần bạn nhớ.",
+      "r4t": "Chăm sóc sau no-show",
+      "sub": "Tự động hóa âm thầm giúp tiết kiệm hàng chục nghìn đô mỗi năm.",
+      "title": "Nhắc lịch & chống no-show",
+      "imgalt": "Tạo lịch hẹn mới trong ứng dụng LacaStay"
+    },
+    "trans": {
+      "l1": "Chào bạn, cảm ơn đã gọi đến Glow Nail Studio — tôi là LacaStay, lễ tân AI. Tôi giúp gì được cho bạn?",
+      "l2": "Chào, tôi muốn đặt pedicure gel với Anna, chiều thứ Năm được không?",
+      "l3": "Thứ Năm lúc 2:15 với Anna còn trống — pedicure gel 60 phút. Khung giờ này có hợp với bạn không?",
+      "l4": "Tuyệt. Bạn nhắc tôi trước một ngày được không?",
+      "l5": "Xong — bạn đã đặt thứ Năm lúc 2:15 với Anna, tôi sẽ nhắn tin xác nhận và nhắc lịch. Còn gì nữa không ạ?",
+      "l6": "Hết rồi. Cảm ơn bạn!",
+      "note": "Bản ghi mẫu — phong cách cuộc gọi thật.",
+      "title": "Nghe thử một cuộc gọi mẫu",
+      "whoai": "LacaStay AI",
+      "whocaller": "Người gọi"
+    }
+  },
+  "nail": {
+    "cta": {
+      "alt": "hoặc đặt lịch demo có hướng dẫn",
+      "btn": "Nghe demo trực tiếp",
+      "h": "Thử ngay trên số điện thoại của bạn.",
+      "p": "Gọi vào đường dây demo và nghe LacaStay đặt lịch fill-in trực tiếp — không cần đăng ký."
+    },
+    "day": {
+      "sub": "Một số điện thoại. Mọi cuộc gọi đều được xử lý — kể cả cuộc gọi lúc nửa đêm.",
+      "t1d": "Một khách quen gọi sau giờ đóng cửa để đặt fill-in. LacaStay đặt cô ấy với thợ quen vào sáng mai và gửi tin nhắn xác nhận.",
+      "t1h": "Fill-in sau giờ đóng cửa, đã đặt xong",
+      "t1t": "8:42 tối",
+      "t2d": "Một khách đổi lịch thứ Bảy bằng giọng nói. Không nhắn tin qua lại, không đặt trùng — ghế trống được lấp lại trong vài giây.",
+      "t2h": "Đổi lịch thứ Bảy, xử lý gọn",
+      "t2t": "9:15 tối",
+      "t3d": "Trước giờ mở cửa, LacaStay xác nhận lịch hẹn hôm nay qua gọi và SMS. Hai khách suýt no-show giờ sẽ đến đúng hẹn.",
+      "t3h": "Lịch hôm nay được xác nhận",
+      "t3t": "7:30 sáng",
+      "t4d": "Một khách mới hỏi giá bộ acrylic. LacaStay trả lời ngay từ hồi chuông đầu và đặt luôn lịch — đội thợ vẫn tập trung làm việc.",
+      "t4h": "Câu hỏi giá giữa giờ đông",
+      "t4t": "12:05 trưa",
+      "title": "Một ngày cùng LacaStay"
+    },
+    "faq": {
+      "a1": "Có — LacaStay tự giới thiệu là lễ tân AI của tiệm trong mọi cuộc gọi. 74% người từ 45–60 tuổi cho biết họ thoải mái với lễ tân AI, và điều khách quan tâm nhất là được trả lời trong chưa đầy 1 giây.",
+      "a2": "Có. LacaStay đặt theo thợ, dịch vụ và thời lượng — và gợi ý thợ phù hợp khi khách chỉ mô tả điều họ muốn.",
+      "a3": "Có. LacaStay có thể giữ thông tin thẻ hoặc thu cọc khi đặt lịch — cách hiệu quả nhất chống no-show, giúp giảm tới 65%.",
+      "a4": "Bạn cập nhật một lần trong bảng điều khiển, LacaStay báo giá mới ngay từ cuộc gọi tiếp theo.",
+      "a5": "Không. LacaStay dùng chính số điện thoại bạn đang có — chỉ cần chuyển tiếp cuộc gọi. Không phần cứng, không cài app.",
+      "q1": "Khách có biết đây là AI không?",
+      "q2": "Có đặt được với thợ cụ thể không?",
+      "q3": "Có thu tiền cọc không?",
+      "q4": "Giá hoặc menu thay đổi thì sao?",
+      "q5": "Có cần điện thoại hay thiết bị mới không?",
+      "title": "Câu hỏi thường gặp — tiệm nail"
+    },
+    "feat": {
+      "f1d": "Dịch vụ, thời lượng, thợ yêu thích — được ghi vào sổ lịch như một lễ tân thật.",
+      "f1t": "Đặt fill-in & full set bằng giọng nói",
+      "f2d": "Thứ Bảy đông? LacaStay ghi tên, báo thời gian chờ và lấp ngay chỗ hủy.",
+      "f2t": "Quản lý hàng chờ walk-in",
+      "f3d": "Nhắc lịch tự động cộng giữ thẻ/deposit — hai cách đã chứng minh giúp giảm no-show tới 65%.",
+      "f3t": "Chống no-show",
+      "f4d": "Chiều thứ Ba vắng lúc 2 giờ? LacaStay nhắc khách cũ quay lại và lấp chỗ trống trước khi bạn mất doanh thu.",
+      "f4t": "Ghế trống được lấp lại",
+      "f5d": "Khách được trả lời bằng tiếng Anh, tiếng Tây Ban Nha và nhiều ngôn ngữ khác — không còn mất booking vì rào cản ngôn ngữ.",
+      "f5t": "Đa ngôn ngữ mặc định",
+      "f6d": "Khách hài lòng nhận link đánh giá sau mỗi lần ghé — điểm số của bạn tăng lên trong lúc bạn làm việc.",
+      "f6t": "Đánh giá tự động",
+      "sub": "Không phải AI chung chung — LacaStay hiểu fill-in, soak-off và một ngày thứ Bảy kín lịch là như thế nào.",
+      "title": "Được xây cho ngôn ngữ của tiệm"
+    },
+    "hero": {
+      "cta1": "Thử ngay trên số điện thoại của bạn",
+      "cta2": "Xem cách hoạt động",
+      "eyebrow": "Dành cho tiệm nail",
+      "h1": "83% khách quen của bạn đã cúp máy và đặt chỗ khác.",
+      "imgalt": "Màn hình lịch hẹn LacaStay của tiệm nail",
+      "note": "Trả lời trong chưa đầy 1 giây — không cần thiết bị mới, không cần học app mới.",
+      "sub": "LacaStay là lễ tân AI trả lời mọi cuộc gọi, đặt mọi lịch fill-in và giữ ghế của bạn luôn đầy — 24/7, bằng tiếng Anh, tiếng Tây Ban Nha và nhiều ngôn ngữ khác."
+    },
+    "int": {
+      "i1": "Booksy",
+      "i2": "Vagaro",
+      "i3": "Fresha",
+      "note": "Cùng Google Calendar và widget đặt lịch trên website của bạn.",
+      "sub": "Không cần học app mới. LacaStay đọc và ghi trực tiếp vào sổ lịch thật của bạn.",
+      "title": "Kết nối với phần mềm đặt lịch của bạn"
+    },
+    "meta": {
+      "desc": "LacaStay trả lời mọi cuộc gọi của tiệm nail 24/7, đặt lịch fill-in và full set, giảm no-show — hiệu quả tính bằng doanh thu.",
+      "title": "Trợ Lý AI Cho Tiệm Nail | LacaStay"
+    },
+    "stats": {
+      "s1l": "khách quen tiệm nail đã bỏ đặt lịch vì không gọi được",
+      "s1n": "83%",
+      "s1s": "Zenoti 2026, theo WaitQ",
+      "s2l": "lịch hẹn của salon bị khách no-show",
+      "s2n": "15–20%",
+      "s2s": "Professional Beauty Association, 2025",
+      "s3l": "thất thoát mỗi năm vì no-show ở tiệm doanh thu $400K",
+      "s3n": "$60K–$80K",
+      "s3s": "PBA 2025"
+    }
+  },
+  "rental": {
+    "cta": {
+      "alt": "hoặc đặt lịch demo có hướng dẫn",
+      "btn": "Nghe demo trực tiếp",
+      "h": "Thử ngay trên số điện thoại của bạn.",
+      "p": "Gọi vào đường dây demo và nghe LacaStay trả lời thắc mắc của khách trực tiếp — không cần đăng ký."
+    },
+    "day": {
+      "sub": "Khách được trả lời ngay. Bạn thì ngủ ngon.",
+      "t1d": "Một vị khách hỏi về chỗ đậu xe và nhận phòng sớm. LacaStay trả lời trong vài giây với đầy đủ thông tin nhà — booking được giữ lại trước khi họ tìm chỗ khác.",
+      "t1h": "Thắc mắc khuya, trả lời tức thì",
+      "t1t": "11:20 đêm",
+      "t2d": "Mã khóa thông minh được gửi tự động kèm hướng dẫn nhận phòng. Bạn không bị đánh thức lúc 6 giờ sáng.",
+      "t2h": "Nhận phòng sớm, xử lý xong",
+      "t2t": "6:40 sáng",
+      "t3d": "LacaStay báo cho nhân viên dọn dẹp khi khách trả phòng và xác nhận khung giờ chuẩn bị cho khách tiếp theo.",
+      "t3h": "Dọn dẹp turnover, phối hợp xong",
+      "t3t": "2:15 chiều",
+      "t4d": "Nhắc nhở giờ yên tĩnh được gửi tự động. Hàng xóm vui vẻ mà bạn không cần gọi điện khó xử.",
+      "t4h": "Nội quy, nhắc khéo",
+      "t4t": "9:05 tối",
+      "title": "Một ngày làm host, không cần ôm điện thoại"
+    },
+    "faq": {
+      "a1": "Có — Guesty, Hospitable và nhiều nền tảng khác. LacaStay đọc đặt phòng, lịch trống và thông tin nhà để mọi câu trả lời đều chính xác.",
+      "a2": "LacaStay gửi qua hộp thư đã kết nối của chính tài khoản bạn, và mọi tin nhắn của khách đều nhận được câu trả lời chính xác, chất lượng như người thật — đó chính là điều các nền tảng đánh giá cao.",
+      "a3": "Tiếng Anh, tiếng Tây Ban Nha và nhiều ngôn ngữ khác — kể cả khách quốc tế của bạn.",
+      "a4": "LacaStay làm theo quy tắc leo thang của bạn: sự cố khẩn cấp được báo ngay cho bạn (hoặc quản lý); còn lại được xử lý và tổng hợp lại.",
+      "a5": "Có. Mỗi căn có thông tin nhà, mã khóa và giá riêng — luôn được trả lời đúng.",
+      "q1": "LacaStay có kết nối với PMS của tôi không?",
+      "q2": "Airbnb/VRBO có phạt trả lời tự động không?",
+      "q3": "Nói được những ngôn ngữ nào?",
+      "q4": "Có sự cố lúc 2 giờ sáng thì sao?",
+      "q5": "Có quản lý nhiều căn không?",
+      "title": "Câu hỏi thường gặp — cho thuê nghỉ dưỡng"
+    },
+    "feat": {
+      "f1d": "Thắc mắc được trả lời trong vài giây — tiếng Anh, tiếng Tây Ban Nha và nhiều ngôn ngữ khác — để bạn giữ tỷ lệ phản hồi Superhost.",
+      "f1t": "Trả lời khách tức thì, đúng ngôn ngữ của họ",
+      "f2d": "Mã khóa, WiFi và hướng dẫn đậu xe được gửi tự động, đúng giờ hẹn.",
+      "f2t": "Mã khóa thông minh lúc nhận phòng",
+      "f3d": "Khách xác nhận nội quy trước khi đến — ít bất ngờ, ít đánh giá xấu.",
+      "f3t": "Nội quy nhà, gửi và xác nhận",
+      "f4d": "Chia sẻ link đặt trực tiếp trong mọi cuộc trò chuyện. LacaStay biến khách một lần thành khách quay lại.",
+      "f4t": "Booking trực tiếp, không hoa hồng",
+      "f5d": "Nhân viên dọn dẹp được báo khi khách trả phòng, xác nhận trước giờ khách mới đến.",
+      "f5t": "Phối hợp dọn dẹp",
+      "f6d": "Yêu cầu đánh giá được gửi đúng thời điểm — điểm số và thứ hạng của bạn cùng tăng.",
+      "f6t": "Đánh giá sau trả phòng",
+      "sub": "Những việc ngốn thời gian nhất của host — trả lời, gửi mã, nhắc nội quy — giờ chạy tự động.",
+      "title": "Được xây cho chủ nhà"
+    },
+    "hero": {
+      "cta1": "Thử ngay trên số điện thoại của bạn",
+      "cta2": "Xem cách hoạt động",
+      "eyebrow": "Dành cho chủ nhà cho thuê",
+      "h1": "Trả lời trong vài giây. Xếp hạng cao hơn. Booking trực tiếp.",
+      "imgalt": "Bảng doanh thu LacaStay của nhà cho thuê kỳ nghỉ",
+      "note": "Chủ nhà nói chuyện với chủ nhà — nhanh, đo bằng số liệu, không rườm rà.",
+      "sub": "LacaStay là trợ lý khách hàng luôn trực của bạn — trả lời thắc mắc, gửi mã khóa và xử lý những câu hỏi lúc 11 giờ đêm trong khi bạn ngủ."
+    },
+    "int": {
+      "i1": "Guesty",
+      "i2": "Hospitable",
+      "i3": "Airbnb & VRBO",
+      "note": "Cùng OwnerRez, Lodgify và website đặt trực tiếp của bạn.",
+      "sub": "LacaStay đọc lịch trống, đặt phòng và thông tin nhà thật — mọi câu trả lời đều chính xác.",
+      "title": "Kết nối với công cụ quản lý của bạn"
+    },
+    "meta": {
+      "desc": "LacaStay trả lời thắc mắc của khách trong vài giây, 24/7 — tăng tốc độ phản hồi, chỉ số Superhost và booking trực tiếp.",
+      "title": "Trợ Lý AI Cho Cho Thuê Nghỉ Dưỡng | LacaStay"
+    },
+    "stats": {
+      "s1l": "là thời gian bạn có để giữ tỷ lệ phản hồi 90% cho danh hiệu Superhost",
+      "s1n": "24 giờ",
+      "s1s": "Airbnb Help Center",
+      "s2l": "thắc mắc kinh doanh không bao giờ được trả lời — những khách đó đặt với người trả lời trước",
+      "s2n": "43%",
+      "s2s": "Next Level Local, 2025",
+      "s3l": "khả năng chốt khách cao hơn khi bạn trả lời trong giờ đầu tiên",
+      "s3n": "7x",
+      "s3s": "Harvard Business Review"
+    }
+  },
+  "spa": {
+    "cta": {
+      "alt": "hoặc đặt lịch demo có hướng dẫn",
+      "btn": "Nghe demo trực tiếp",
+      "h": "Thử ngay trên số điện thoại của bạn.",
+      "p": "Gọi vào đường dây demo và nghe LacaStay đặt lịch trị liệu trực tiếp — không cần đăng ký."
+    },
+    "day": {
+      "sub": "Mọi cuộc gọi được trả lời. Mọi phòng trị liệu được lấp đầy.",
+      "t1d": "Một vị khách gọi sau bữa tối để hỏi về massage cặp. LacaStay đặt cả hai phòng trị liệu, gửi form thông tin qua SMS và thu tiền cọc.",
+      "t1h": "Đặt massage cặp sau bữa tối",
+      "t1t": "8:10 tối",
+      "t2d": "Một vị khách gọi trên đường đi vì sắp trễ lịch 10 giờ. LacaStay chuyển cô ấy sang buổi chiều và lấp chỗ trống bằng khách trong danh sách chờ.",
+      "t2h": "Khách đến trễ? Đổi lịch ngay.",
+      "t2t": "9:45 sáng",
+      "t3d": "LacaStay gửi form thông tin và đồng ý điều trị cho khách ngày mai — check-in tại quầy chỉ mất vài giây.",
+      "t3h": "Form thông tin xong trước khi khách đến",
+      "t3t": "12:30 trưa",
+      "t4d": "Xác nhận liệu trình được gửi qua gọi và SMS. Lịch trình của bạn bắt đầu ngày với mọi chỗ đã chắc chắn.",
+      "t4h": "Lịch hôm nay được xác nhận",
+      "t4t": "7:00 sáng",
+      "title": "Một ngày ở spa của bạn"
+    },
+    "faq": {
+      "a1": "LacaStay được thiết kế thân thiện với HIPAA: hạn chế thu thập thông tin sức khỏe được bảo vệ và mã hóa mọi dữ liệu khi truyền và lưu trữ. Med spa có thể yêu cầu cấu hình HIPAA-ready kèm BAA đã ký.",
+      "a2": "LacaStay gửi form thông tin và đồng ý điều trị cho khách mới ngay sau khi đặt lịch, và nhắc đến khi họ hoàn thành.",
+      "a3": "Có — lịch phòng và chuyên viên được kiểm tra đồng thời, nên đặt massage cặp hay phòng đôi không bao giờ bị trùng.",
+      "a4": "LacaStay chuyển cuộc gọi hoặc ghi lại tin nhắn chi tiết kèm lời hẹn gọi lại — và báo ngay cho đội của bạn.",
+      "a5": "Có. LacaStay giới thiệu các gói, áp dụng giá thành viên và đặt lịch trừ vào số buổi còn lại.",
+      "q1": "LacaStay có đạt chuẩn HIPAA không?",
+      "q2": "Xử lý form thông tin thế nào?",
+      "q3": "Có quản lý nhiều phòng trị liệu không?",
+      "q4": "Khách muốn nói chuyện với người thật thì sao?",
+      "q5": "Có hỗ trợ thẻ thành viên và gói không?",
+      "title": "Câu hỏi thường gặp — spa"
+    },
+    "feat": {
+      "f1d": "Đồng ý điều trị, tiền sử sức khỏe, sở thích — gửi qua SMS trước buổi hẹn, đồng bộ với hồ sơ của bạn.",
+      "f1t": "Form thông tin gửi tự động",
+      "f2d": "Massage cặp, phòng đôi, chuyên viên yêu thích — đặt không bao giờ trùng phòng.",
+      "f2t": "Phòng trị liệu & chuyên viên, xếp chuẩn",
+      "f3d": "LacaStay hạn chế tối đa việc thu thập dữ liệu sức khỏe và không lưu thông tin nhạy cảm không cần thiết. (Med spa: hỏi chúng tôi về cấu hình HIPAA-ready kèm BAA.)",
+      "f3t": "Thiết kế thân thiện với HIPAA",
+      "f4d": "LacaStay giới thiệu gói thành viên, áp dụng ưu đãi và nhắc đặt lại — như kịch bản upsell của lễ tân, được thực hiện mọi lần.",
+      "f4t": "Gói & thẻ thành viên",
+      "f5d": "Chính sách hủy trước 24 giờ được thông báo và áp dụng tự động — đủ cứng để bảo vệ doanh thu, đủ lịch thiệp để giữ khách.",
+      "f5t": "Chính sách hủy, thực thi khéo léo",
+      "f6d": "Yêu cầu đánh giá sau buổi trị liệu được gửi đúng lúc khách còn đang hài lòng.",
+      "f6t": "Đánh giá xứng với dịch vụ",
+      "sub": "Từng chi tiết được thiết kế cho chuẩn mực phục vụ của spa — lịch thiệp, chính xác và đáng tin.",
+      "title": "Được xây cho trải nghiệm khách hàng"
+    },
+    "hero": {
+      "cta1": "Thử ngay trên số điện thoại của bạn",
+      "cta2": "Xem cách hoạt động",
+      "eyebrow": "Dành cho spa & med spa",
+      "h1": "Quầy lễ tân không bao giờ để khách phải chờ.",
+      "imgalt": "Bảng điều khiển LacaStay của spa",
+      "note": "Chuyên nghiệp, lịch thiệp và luôn trực — kể cả lúc 11 giờ đêm.",
+      "sub": "LacaStay trả lời mọi cuộc gọi, đặt mọi liệu trình và gửi mọi form thông tin — trải nghiệm khách hàng của bạn bắt đầu từ trước lần ghé đầu tiên."
+    },
+    "int": {
+      "i1": "Mindbody",
+      "i2": "Zenoti",
+      "i3": "Vagaro",
+      "note": "Cùng Booker, Millennium và widget đặt lịch trên website của bạn.",
+      "sub": "LacaStay đọc lịch trống thật và ghi đặt lịch trực tiếp — không sổ song song.",
+      "title": "Kết nối với phần mềm spa của bạn"
+    },
+    "meta": {
+      "desc": "LacaStay mang đến cho spa của bạn một quầy lễ tân không bao giờ để khách phải chờ — đặt lịch, gửi form thông tin và nhắc hẹn 24/7, thân thiện với HIPAA.",
+      "title": "Lễ Tân AI Cho Spa & Med Spa | LacaStay"
+    },
+    "stats": {
+      "s1l": "khách spa & salon đã bỏ đặt lịch vì quá khó liên lạc được với ai đó",
+      "s1n": "71%",
+      "s1s": "Zenoti Salon & Spa Consumer Survey, 2025",
+      "s2l": "là tỷ lệ no-show trung bình của spa",
+      "s2n": "22–25%",
+      "s2s": "Spa Business Report, 2025",
+      "s3l": "lịch đặt online được thực hiện khi bạn đã đóng cửa",
+      "s3n": "46%",
+      "s3s": "Dữ liệu Phorest, theo Sola Salon Studios, 2026"
+    }
+  }
+}
