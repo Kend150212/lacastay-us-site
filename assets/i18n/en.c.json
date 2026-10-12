@@ -399,6 +399,22 @@
     "shots_cap1": "A fully booked week, right on your phone",
     "shots_cap2": "Today's overview — revenue, bookings, and AI calls at a glance",
     "shots_imgalt1": "LacaStay week calendar on a phone",
-    "shots_imgalt2": "LacaStay owner dashboard on desktop"
+    "shots_imgalt2": "LacaStay owner dashboard on desktop",
+    "samples": {
+      "title": "Hear it handle real bookings",
+      "sub": "Sample calls — the AI books, confirms, and answers questions on its own.",
+      "nails": {
+        "title": "Gel manicure booking",
+        "desc": "Friday afternoon appointment, confirmed in under a minute."
+      },
+      "spa": {
+        "title": "Massage booking",
+        "desc": "Deep tissue massage — answers pricing questions, then books."
+      },
+      "rental": {
+        "title": "Weekend stay booking",
+        "desc": "Checks availability, quotes the total, confirms by email."
+      }
+    }
   }
 }
