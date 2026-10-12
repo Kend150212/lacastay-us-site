@@ -399,6 +399,22 @@
     "shots_cap1": "Một tuần kín booking, ngay trên điện thoại",
     "shots_cap2": "Tổng quan hôm nay — doanh thu, booking và cuộc gọi AI trong một cái nhìn",
     "shots_imgalt1": "Lịch tuần LacaStay trên điện thoại",
-    "shots_imgalt2": "Bảng điều khiển LacaStay trên máy tính"
+    "shots_imgalt2": "Bảng điều khiển LacaStay trên máy tính",
+    "samples": {
+      "title": "Nghe AI xử lý booking thật",
+      "sub": "Các cuộc gọi mẫu — AI tự đặt lịch, xác nhận và trả lời câu hỏi.",
+      "nails": {
+        "title": "Đặt lịch làm móng gel",
+        "desc": "Lịch chiều thứ Sáu, xác nhận trong chưa đầy một phút."
+      },
+      "spa": {
+        "title": "Đặt lịch massage",
+        "desc": "Massage mô sâu — trả lời câu hỏi về giá rồi đặt lịch."
+      },
+      "rental": {
+        "title": "Đặt phòng cuối tuần",
+        "desc": "Kiểm tra phòng trống, báo giá tổng, xác nhận qua email."
+      }
+    }
   }
 }
