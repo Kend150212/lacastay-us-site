@@ -1,0 +1,139 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><link rel='preconnect' href='https://fonts.googleapis.com'><link href='https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap' rel='stylesheet'>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;color:#1F2937;-webkit-font-smoothing:antialiased}
+.page{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;background:linear-gradient(160deg,#FDF6EA 0%,#FBEFD9 60%,#F9E4C6 100%);position:relative;overflow:hidden}
+.blob{position:absolute;border-radius:50%;background:#F6DCB4;opacity:.55;filter:blur(2px)}
+h1.hero{font-size:62px;font-weight:900;color:#7A2E0E;letter-spacing:-.5px;margin:56px 0 34px;text-align:center}
+.phone{width:830px;height:1480px;background:#0B0B0C;border-radius:96px;padding:30px;box-shadow:0 40px 90px rgba(120,60,10,.28), inset 0 0 0 3px #2a2a2c}
+.screen{width:100%;height:100%;background:#F8F9FB;border-radius:68px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.notch{position:absolute;top:26px;left:50%;transform:translateX(-50%);width:150px;height:34px;background:#0B0B0C;border-radius:20px;z-index:5}
+.statusbar{display:flex;justify-content:space-between;align-items:center;padding:20px 44px 6px;font-weight:800;font-size:23px}
+.sb-icons{display:flex;gap:10px;align-items:center}
+
+.apphead{padding:6px 32px 0}
+.greet{font-size:20px;color:#6B7280;font-weight:600}
+.apptitle{font-size:42px;font-weight:900;letter-spacing:-.5px;margin:0 0 10px}
+.locpill{display:inline-flex;align-items:center;gap:8px;background:#FFF1E2;color:#9A3412;font-weight:800;font-size:19px;padding:8px 20px;border-radius:999px}
+.daterow{display:flex;align-items:center;justify-content:center;gap:14px;margin:12px 0 2px}
+.datebtn{width:46px;height:46px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.datepill{display:flex;align-items:center;gap:8px;background:#fff;border-radius:999px;padding:10px 20px;font-weight:800;font-size:21px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.todaypill{background:#FFF1E2;color:#C2410C;font-weight:800;font-size:19px;padding:10px 20px;border-radius:999px}
+.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:12px 28px 0}
+.statcard{background:#fff;border-radius:24px;padding:16px 20px;box-shadow:0 3px 14px rgba(0,0,0,.05)}
+.tile{width:56px;height:56px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:10px}
+.tile.orange{background:#FFF1E2}.tile.green{background:#DCFCE7}.tile.blue{background:#DBEAFE}
+.tile.orange svg{stroke:#F97316}.tile.green svg{stroke:#16A34A}.tile.blue svg{stroke:#2563EB}
+.statval{font-size:38px;font-weight:900;letter-spacing:-.5px}
+.statlabel{font-size:19px;color:#6B7280;font-weight:600}
+.chartcard{background:#fff;border-radius:24px;margin:10px 28px 0;padding:18px 22px 10px;box-shadow:0 3px 14px rgba(0,0,0,.05)}
+.charttitle{font-size:23px;font-weight:800;display:flex;align-items:center;gap:10px;margin-bottom:16px}
+.bars{display:flex;align-items:flex-end;justify-content:space-between;height:168px;padding:0 6px}
+.barcol{display:flex;flex-direction:column;align-items:center;gap:6px;flex:1}
+.barval{font-size:15px;color:#9CA3AF;font-weight:700}
+.bar{width:42px;border-radius:10px;background:linear-gradient(180deg,#FB923C,#F97316);min-height:12px}
+.bar.max{background:linear-gradient(180deg,#F97316,#EA580C);box-shadow:0 6px 16px rgba(249,115,22,.35)}
+.barday{font-size:17px;color:#6B7280;font-weight:700}
+.apptsec{padding:8px 30px 0}
+.apptsec h3{font-size:27px;font-weight:900;margin-bottom:10px}
+.apptrow{display:flex;align-items:center;gap:14px;background:#fff;border-radius:20px;padding:12px 16px;margin-bottom:8px;box-shadow:0 3px 12px rgba(0,0,0,.05)}
+.avatar{width:56px;height:56px;border-radius:50%;background:#FFF1E2;color:#C2410C;font-weight:900;font-size:23px;display:flex;align-items:center;justify-content:center;flex:none}
+.apptinfo{flex:1;min-width:0}
+.apptname{font-size:21px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.apptsub{font-size:17px;color:#6B7280;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.apptright{text-align:right;flex:none}
+.appttime{font-size:19px;font-weight:800}
+.badge{display:inline-block;font-size:14px;font-weight:800;padding:4px 12px;border-radius:999px;margin-top:4px}
+.badge.ok{background:#DCFCE7;color:#15803D}
+.badge.pend{background:#FEF3C7;color:#B45309}
+.tabbar{margin-top:auto;background:#fff;border-top:1px solid #EEF0F3;display:flex;justify-content:space-around;align-items:flex-end;padding:10px 8px 22px}
+.tab{display:flex;flex-direction:column;align-items:center;gap:4px;color:#9CA3AF;font-size:16px;font-weight:700}
+.tab.active{color:#F97316}
+.fab{width:84px;height:84px;border-radius:50%;background:linear-gradient(180deg,#FB923C,#F97316);display:flex;align-items:center;justify-content:center;margin-top:-46px;box-shadow:0 12px 28px rgba(249,115,22,.45)}
+
+.dpage{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(140deg,#1E293B 0%,#334155 55%,#7C2D12 130%);position:relative;overflow:hidden}
+.dblob{position:absolute;border-radius:50%;background:#F97316;opacity:.14;filter:blur(60px)}
+.browser{width:1440px;height:880px;background:#F8F9FB;border-radius:22px;overflow:hidden;box-shadow:0 50px 120px rgba(0,0,0,.5);display:flex;flex-direction:column;z-index:2}
+.chrome{background:#E8EAEE;display:flex;align-items:center;gap:14px;padding:14px 20px}
+.tl{display:flex;gap:8px}
+.tl span{width:15px;height:15px;border-radius:50%}
+.urlbar{flex:1;background:#fff;border-radius:10px;padding:9px 18px;font-size:16px;font-weight:700;color:#6B7280;display:flex;align-items:center;gap:10px}
+.dbody{flex:1;display:flex;min-height:0}
+.sidebar{width:228px;background:#111827;color:#CBD5E1;display:flex;flex-direction:column;padding:22px 14px;flex:none}
+.brand{display:flex;align-items:center;gap:10px;padding:4px 10px 20px}
+.brand img{height:34px}
+.brand b{color:#fff;font-size:20px;font-weight:900}
+.navitem{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:12px;font-size:16.5px;font-weight:700;margin-bottom:2px}
+.navitem.active{background:#F97316;color:#fff}
+.navitem svg{flex:none}
+.sideuser{margin-top:auto;background:#1F2937;border-radius:14px;padding:12px 14px;display:flex;align-items:center;gap:10px}
+.sideuser .avatar{width:44px;height:44px;font-size:17px}
+.main{flex:1;padding:26px 30px;overflow:hidden;min-width:0}
+.dhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.dhead h2{font-size:30px;font-weight:900}
+.dhead p{font-size:15.5px;color:#6B7280;font-weight:600}
+.dstats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:18px}
+.dcard{background:#fff;border-radius:18px;padding:18px 20px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.dval{font-size:34px;font-weight:900}
+.dlabel{font-size:14.5px;color:#6B7280;font-weight:600}
+.drow{display:flex;gap:16px}
+.dchart{flex:1.6;background:#fff;border-radius:18px;padding:20px 22px 12px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.dchart h4{font-size:18px;font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.dbars{display:flex;align-items:flex-end;justify-content:space-between;height:190px}
+.dbarcol{display:flex;flex-direction:column;align-items:center;gap:6px;flex:1}
+.dbar{width:52px;border-radius:10px;background:linear-gradient(180deg,#FB923C,#F97316)}
+.dbar.max{background:linear-gradient(180deg,#F97316,#EA580C);box-shadow:0 6px 16px rgba(249,115,22,.35)}
+.dbarval{font-size:13px;color:#9CA3AF;font-weight:700}
+.dbarday{font-size:14px;color:#6B7280;font-weight:700}
+.dside{flex:1;display:flex;flex-direction:column;gap:16px;min-width:0}
+.dpanel{background:#fff;border-radius:18px;padding:18px 20px;box-shadow:0 2px 10px rgba(0,0,0,.05)}
+.dpanel h4{font-size:18px;font-weight:800;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.dappt{display:flex;align-items:center;gap:12px;padding:9px 0;border-bottom:1px solid #F1F2F4}
+.dappt:last-child{border:none}
+.dappt .avatar{width:46px;height:46px;font-size:18px}
+.dappt .apptname{font-size:16px}
+.dappt .apptsub{font-size:13.5px}
+.dappt .appttime{font-size:14.5px}
+.callrow{display:flex;gap:10px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #F1F2F4}
+.callrow:last-child{border:none}
+.callic{width:40px;height:40px;border-radius:12px;background:#DCFCE7;display:flex;align-items:center;justify-content:center;flex:none}
+.callrow b{font-size:15px}.callrow p{font-size:13.5px;color:#6B7280;font-weight:600}
+.calltime{margin-left:auto;font-size:13px;color:#9CA3AF;font-weight:700;flex:none}
+
+.dcalhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.dcalhead h2{font-size:30px;font-weight:900}
+.dcalhead p{font-size:15.5px;color:#6B7280;font-weight:600}
+.dcalnav{display:flex;align-items:center;gap:12px}
+.dcalgrid{background:#fff;border-radius:18px;box-shadow:0 2px 10px rgba(0,0,0,.05);overflow:hidden;display:flex;height:640px}
+.dgutter{width:70px;flex:none;background:#FAFAFB;padding-top:56px}
+.dghour{font-size:13px;color:#9CA3AF;font-weight:700;text-align:right;padding-right:10px;height:58px;transform:translateY(-7px)}
+.ddaycol{flex:1;border-left:1px solid #F1F2F4;position:relative}
+.ddaycol.todaycol{background:#FFF9F2}
+.ddayname{text-align:center;font-size:14.5px;font-weight:800;color:#6B7280;padding:12px 0 8px;border-bottom:1px solid #F1F2F4;background:#FAFAFB}
+.ddaycol.todaycol .ddayname{background:#FFF1E2;color:#C2410C}
+.dbwrap{position:relative;height:584px}
+.dblk{position:absolute;left:6px;right:6px;border-radius:10px;padding:5px 8px;color:#fff;font-size:13px;font-weight:800;line-height:1.25;overflow:hidden;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.dblk small{display:block;font-weight:700;font-size:11px;opacity:.92}
+</style></head>
+<body><div class="dpage" style="width:1600px;height:1000px">
+<div class="dblob" style="width:600px;height:600px;left:-150px;top:-100px"></div>
+<div class="dblob" style="width:500px;height:500px;right:-100px;bottom:-150px"></div>
+<div class="browser">
+  <div class="chrome"><div class="tl"><span style="background:#FF5F57"></span><span style="background:#FEBC2E"></span><span style="background:#28C840"></span></div>
+  <div class="urlbar"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> app.lacastay.com/calendar</div></div>
+  <div class="dbody">
+    <div class="sidebar">
+      <div class="brand"><img src="owl.png" alt=""><b>LacaStay</b></div>
+      <div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg><span>Dashboard</span></div><div class="navitem active"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span>Calendar</span></div><div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Appointments</span></div><div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>AI Calls</span></div><div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span>Messages</span></div><div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>Reviews</span></div><div class="navitem"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg><span>Settings</span></div>
+      <div class="sideuser"><div class="avatar">LA</div><div><b style="color:#fff;font-size:15px">Laca Stay</b><p style="font-size:13px">Admin</p></div></div>
+    </div>
+    <div class="main">
+      <div class="dcalhead"><div><h2>Calendar</h2><p>Week of Oct 12 – Oct 18 · 3 technicians</p></div>
+      <div class="dcalnav"><div class="techpill" style="font-size:15px"><span class="dot" style="background:#F97316"></span>Anna</div><div class="techpill" style="font-size:15px"><span class="dot" style="background:#3B82F6"></span>Linda</div><div class="techpill" style="font-size:15px"><span class="dot" style="background:#14B8A6"></span>Mai</div>
+        <div class="datebtn" style="width:40px;height:40px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></div>
+        <div class="datebtn" style="width:40px;height:40px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#374151" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></div>
+        <div class="todaypill" style="font-size:15px">+ New booking</div></div></div>
+      <div class="dcalgrid"><div class="dgutter"><div class="dghour">9a</div><div class="dghour">10a</div><div class="dghour">11a</div><div class="dghour">12p</div><div class="dghour">1p</div><div class="dghour">2p</div><div class="dghour">3p</div><div class="dghour">4p</div><div class="dghour">5p</div><div class="dghour">6p</div></div><div class="ddaycol todaycol"><div class="ddayname">Monday<br><span style="font-size:12px">12</span></div><div class="dbwrap"><div class="dblk" style="top:0px;height:44px;background:#F97316">Jessica · Gel Mani<small>9:00 · Anna</small></div><div class="dblk" style="top:0px;height:44px;background:#3B82F6">Ashley · Spa Pedi<small>9:00 · Linda</small></div><div class="dblk" style="top:29px;height:44px;background:#14B8A6">Brittany · Acrylic Set<small>9:30 · Mai</small></div><div class="dblk" style="top:58px;height:44px;background:#F97316">Samantha · Gel Fill<small>10:00 · Anna</small></div><div class="dblk" style="top:116px;height:44px;background:#F97316">Lauren · Spa Pedi<small>11:00 · Anna</small></div><div class="dblk" style="top:203px;height:44px;background:#F97316">Rachel · Pedi + Paraffin<small>12:30 · Anna</small></div><div class="dblk" style="top:290px;height:44px;background:#F97316">Danielle · Mani + Pedi<small>2:00 · Anna</small></div><div class="dblk" style="top:377px;height:44px;background:#F97316">Christina · Acrylic Set<small>3:30 · Anna</small></div><div class="dblk" style="top:464px;height:44px;background:#F97316">Courtney · Manicure<small>5:00 · Anna</small></div></div></div><div class="ddaycol"><div class="ddayname">Tuesday<br><span style="font-size:12px">13</span></div><div class="dbwrap"><div class="dblk" style="top:0px;height:44px;background:#14B8A6">Hannah · Gel Mani<small>9:00 · Mai</small></div><div class="dblk" style="top:72px;height:44px;background:#3B82F6">Emily · Dip Powder<small>10:15 · Linda</small></div><div class="dblk" style="top:145px;height:44px;background:#3B82F6">Nicole · Acrylic Fill<small>11:30 · Linda</small></div><div class="dblk" style="top:232px;height:44px;background:#3B82F6">Amanda · Full Set + Design<small>1:00 · Linda</small></div><div class="dblk" style="top:319px;height:44px;background:#3B82F6">Kimberly · Dip Powder<small>2:30 · Linda</small></div><div class="dblk" style="top:406px;height:44px;background:#3B82F6">Tiffany · Spa Pedi<small>4:00 · Linda</small></div><div class="dblk" style="top:493px;height:44px;background:#3B82F6">Amber · Pedicure<small>5:30 · Linda</small></div></div></div><div class="ddaycol"><div class="ddayname">Wednesday<br><span style="font-size:12px">14</span></div><div class="dbwrap"><div class="dblk" style="top:29px;height:44px;background:#14B8A6">Olivia · Gel Mani<small>9:30 · Mai</small></div><div class="dblk" style="top:87px;height:44px;background:#14B8A6">Megan · Gel Mani + Art<small>10:30 · Mai</small></div><div class="dblk" style="top:174px;height:44px;background:#14B8A6">Sophia · Dip Powder<small>12:00 · Mai</small></div><div class="dblk" style="top:261px;height:44px;background:#14B8A6">Stephanie · Gel Pedi<small>1:30 · Mai</small></div><div class="dblk" style="top:348px;height:44px;background:#14B8A6">Melissa · Gel Mani<small>3:00 · Mai</small></div><div class="dblk" style="top:435px;height:44px;background:#14B8A6">Vanessa · Gel Fill<small>4:30 · Mai</small></div><div class="dblk" style="top:522px;height:44px;background:#14B8A6">Jamie · Gel Mani<small>6:00 · Mai</small></div></div></div><div class="ddaycol"><div class="ddayname">Thursday<br><span style="font-size:12px">15</span></div><div class="dbwrap"><div class="dblk" style="top:0px;height:44px;background:#3B82F6">Grace · Spa Pedi<small>9:00 · Linda</small></div><div class="dblk" style="top:58px;height:44px;background:#F97316">Chloe · Gel Fill<small>10:00 · Anna</small></div><div class="dblk" style="top:116px;height:44px;background:#14B8A6">Lily · Acrylic Set<small>11:00 · Mai</small></div><div class="dblk" style="top:174px;height:44px;background:#3B82F6">Ella · Dip Powder<small>12:00 · Linda</small></div><div class="dblk" style="top:290px;height:44px;background:#F97316">Ava · Gel Mani<small>2:00 · Anna</small></div><div class="dblk" style="top:377px;height:44px;background:#3B82F6">Mia · Spa Pedi<small>3:30 · Linda</small></div><div class="dblk" style="top:464px;height:44px;background:#14B8A6">Zoe · Gel Mani<small>5:00 · Mai</small></div></div></div><div class="ddaycol"><div class="ddayname">Friday<br><span style="font-size:12px">16</span></div><div class="dbwrap"><div class="dblk" style="top:0px;height:44px;background:#F97316">Nora · Full Set<small>9:00 · Anna</small></div><div class="dblk" style="top:87px;height:44px;background:#14B8A6">Ruby · Gel Mani + Art<small>10:30 · Mai</small></div><div class="dblk" style="top:174px;height:44px;background:#3B82F6">Stella · Spa Pedi<small>12:00 · Linda</small></div><div class="dblk" style="top:261px;height:44px;background:#F97316">Hazel · Dip Powder<small>1:30 · Anna</small></div><div class="dblk" style="top:348px;height:44px;background:#14B8A6">Violet · Acrylic Fill<small>3:00 · Mai</small></div><div class="dblk" style="top:435px;height:44px;background:#3B82F6">Aurora · Gel Pedi<small>4:30 · Linda</small></div><div class="dblk" style="top:522px;height:44px;background:#F97316">Luna · Gel Mani<small>6:00 · Anna</small></div></div></div></div>
+    </div>
+  </div>
+</div></div></body></html>

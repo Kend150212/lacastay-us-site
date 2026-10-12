@@ -392,6 +392,13 @@
       "submit": "Request demo",
       "success": "Thanks! We'll call you within one business day to schedule your demo.",
       "note": "Front-end demo only — no data is sent anywhere."
-    }
+    },
+    "shots_eyebrow": "Product tour",
+    "shots_h2": "See the app in action",
+    "shots_sub": "The dashboard owners open every morning — and the calendar that fills itself.",
+    "shots_cap1": "A fully booked week, right on your phone",
+    "shots_cap2": "Today's overview — revenue, bookings, and AI calls at a glance",
+    "shots_imgalt1": "LacaStay week calendar on a phone",
+    "shots_imgalt2": "LacaStay owner dashboard on desktop"
   }
 }

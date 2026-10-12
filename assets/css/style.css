@@ -204,3 +204,27 @@ a.logo { gap: 0; }
 .cta-strip-btns { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn-phone svg { vertical-align: -4px; margin-right: 6px; }
 @media (max-width: 720px) { .cta-strip { flex-direction: column; text-align: center; } .cta-strip-btns { justify-content: center; } }
+
+/* Mobile app section — store badges */
+.store-badges { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 18px; }
+.store-badge { display: inline-flex; align-items: center; gap: 12px; background: #111; color: #fff; border-radius: 12px; padding: 10px 20px 10px 16px; text-decoration: none; border: 1px solid #111; }
+.store-badge svg { flex: none; }
+.store-badge .sb-text { display: flex; flex-direction: column; line-height: 1.25; }
+.store-badge .sb-text small { font-size: 0.68rem; font-weight: 600; color: #d1d5db; }
+.store-badge .sb-text strong { font-size: 1.12rem; font-weight: 800; }
+.tick-list { list-style: none; padding: 0; margin: 18px 0; }
+.tick-list li { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 10px; font-weight: 600; }
+.tick-list svg { flex: none; margin-top: 2px; color: #16a34a; }
+
+/* Industry photo band */
+.photo-band { position: relative; min-height: 440px; background-size: cover; background-position: center; display: flex; align-items: flex-end; }
+.photo-band .pb-cap { width: 100%; background: linear-gradient(transparent, rgba(20,10,5,.72)); padding: 110px 0 34px; }
+.photo-band .pb-cap h2 { color: #fff; margin: 0; font-size: 2rem; max-width: 640px; }
+@media (max-width: 720px) { .photo-band { min-height: 300px; } .photo-band .pb-cap h2 { font-size: 1.4rem; } }
+
+/* Product tour gallery */
+.shots-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 36px; text-align: left; }
+.shot-card { background: #fff; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.shot-card img { width: 100%; display: block; }
+.shot-card .shot-cap { padding: 16px 20px; font-weight: 600; color: var(--ink-soft); font-size: 0.95rem; }
+@media (max-width: 720px) { .shots-grid { grid-template-columns: 1fr; } }

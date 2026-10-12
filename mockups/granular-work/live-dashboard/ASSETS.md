@@ -1,0 +1,2 @@
+- Mockup builder: ~/workspace/lacastay-us-site/mockups/build_mockups.py
+- Produced images: ~/workspace/lacastay-us-site/assets/img/app-{dashboard,calendar,dashboard-desktop,calendar-desktop}.png

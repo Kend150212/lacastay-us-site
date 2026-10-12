@@ -34,7 +34,18 @@
       "v2t": "Tuân thủ",
       "v3d": "Chúng tôi thiết kế cho chủ doanh nghiệp độc lập với một đến mười địa điểm — không phải chuỗi lớn. Giá công bằng, không hợp đồng dài hạn.",
       "v3t": "Ưu tiên doanh nghiệp nhỏ"
-    }
+    },
+    "mobile_eyebrow": "Ứng dụng di động",
+    "mobile_h2": "Quầy lễ tân trong túi bạn",
+    "mobile_sub": "Chủ tiệm điều hành LacaStay ngay trên điện thoại — booking mới tới ngay khi AI vừa tạo, mỗi cuộc gọi được nghe đều kèm bản ghi, và doanh thu hôm nay chỉ cách một chạm.",
+    "mobile_b1": "Thông báo booking theo thời gian thực",
+    "mobile_b2": "Cảnh báo cuộc gọi AI kèm bản ghi",
+    "mobile_b3": "Doanh thu và lịch hẹn trong một cái nhìn",
+    "mobile_platforms": "Có trên iOS và Android",
+    "mobile_badge_small1": "Tải trên",
+    "mobile_badge_small2": "Tải trên",
+    "mobile_note": "Miễn phí với mọi gói LacaStay",
+    "mobile_imgalt": "Lịch tuần chật kín booking trên ứng dụng di động LacaStay"
   },
   "how": {
     "book": {
@@ -173,7 +184,7 @@
       "cta2": "Xem cách hoạt động",
       "eyebrow": "Dành cho tiệm nail",
       "h1": "83% khách quen của bạn đã cúp máy và đặt chỗ khác.",
-      "imgalt": "Màn hình lịch hẹn LacaStay của tiệm nail",
+      "imgalt": "Thợ nail đang sơn móng trong salon sáng đẹp",
       "note": "Trả lời trong chưa đầy 1 giây — không cần thiết bị mới, không cần học app mới.",
       "sub": "LacaStay là lễ tân AI trả lời mọi cuộc gọi, đặt mọi lịch fill-in và giữ ghế của bạn luôn đầy — 24/7, bằng tiếng Anh, tiếng Tây Ban Nha và nhiều ngôn ngữ khác."
     },
@@ -199,7 +210,8 @@
       "s3l": "thất thoát mỗi năm vì no-show ở tiệm doanh thu $400K",
       "s3n": "$60K–$80K",
       "s3s": "PBA 2025"
-    }
+    },
+    "band_cap": "Mọi cuộc gọi đều được nghe máy. Mọi ghế đều kín khách."
   },
   "rental": {
     "cta": {
@@ -258,7 +270,7 @@
       "cta2": "Xem cách hoạt động",
       "eyebrow": "Dành cho chủ nhà cho thuê",
       "h1": "Trả lời trong vài giây. Xếp hạng cao hơn. Booking trực tiếp.",
-      "imgalt": "Bảng doanh thu LacaStay của nhà cho thuê kỳ nghỉ",
+      "imgalt": "Ngôi nhà nghỉ dưỡng tuyệt đẹp lúc hoàng hôn",
       "note": "Chủ nhà nói chuyện với chủ nhà — nhanh, đo bằng số liệu, không rườm rà.",
       "sub": "LacaStay là trợ lý khách hàng luôn trực của bạn — trả lời thắc mắc, gửi mã khóa và xử lý những câu hỏi lúc 11 giờ đêm trong khi bạn ngủ."
     },
@@ -284,7 +296,8 @@
       "s3l": "khả năng chốt khách cao hơn khi bạn trả lời trong giờ đầu tiên",
       "s3n": "7x",
       "s3s": "Harvard Business Review"
-    }
+    },
+    "band_cap": "Phản hồi 5 sao, ngay cả lúc 2 giờ sáng."
   },
   "spa": {
     "cta": {
@@ -343,7 +356,7 @@
       "cta2": "Xem cách hoạt động",
       "eyebrow": "Dành cho spa & med spa",
       "h1": "Quầy lễ tân không bao giờ để khách phải chờ.",
-      "imgalt": "Bảng điều khiển LacaStay của spa",
+      "imgalt": "Phòng trị liệu spa yên tĩnh với nến và hoa lan",
       "note": "Chuyên nghiệp, lịch thiệp và luôn trực — kể cả lúc 11 giờ đêm.",
       "sub": "LacaStay trả lời mọi cuộc gọi, đặt mọi liệu trình và gửi mọi form thông tin — trải nghiệm khách hàng của bạn bắt đầu từ trước lần ghé đầu tiên."
     },
@@ -369,6 +382,7 @@
       "s3l": "lịch đặt online được thực hiện khi bạn đã đóng cửa",
       "s3n": "46%",
       "s3s": "Dữ liệu Phorest, theo Sola Salon Studios, 2026"
-    }
+    },
+    "band_cap": "Quầy lễ tân êm ả cho không gian thư giãn."
   }
 }

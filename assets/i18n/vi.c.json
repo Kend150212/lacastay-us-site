@@ -392,6 +392,13 @@
       "submit": "Yêu cầu demo",
       "success": "Cảm ơn! Chúng tôi sẽ gọi cho bạn trong một ngày làm việc để xếp lịch demo.",
       "note": "Chỉ demo giao diện — không có dữ liệu nào được gửi đi."
-    }
+    },
+    "shots_eyebrow": "Xem sản phẩm",
+    "shots_h2": "Xem ứng dụng hoạt động",
+    "shots_sub": "Bảng điều khiển chủ tiệm mở mỗi sáng — và lịch tự động kín khách.",
+    "shots_cap1": "Một tuần kín booking, ngay trên điện thoại",
+    "shots_cap2": "Tổng quan hôm nay — doanh thu, booking và cuộc gọi AI trong một cái nhìn",
+    "shots_imgalt1": "Lịch tuần LacaStay trên điện thoại",
+    "shots_imgalt2": "Bảng điều khiển LacaStay trên máy tính"
   }
 }

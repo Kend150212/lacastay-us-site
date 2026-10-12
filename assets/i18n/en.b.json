@@ -34,7 +34,18 @@
       "v2t": "Compliance",
       "v3d": "We design for the independent owner with one to ten locations — not the enterprise chain. Fair pricing, no long contracts.",
       "v3t": "SMB-first"
-    }
+    },
+    "mobile_eyebrow": "Mobile app",
+    "mobile_h2": "Your front desk, in your pocket",
+    "mobile_sub": "Owners run LacaStay from their phones — new bookings land the second the AI makes them, every answered call arrives with a transcript, and today's revenue is always one tap away.",
+    "mobile_b1": "Real-time booking notifications",
+    "mobile_b2": "AI call alerts with transcripts",
+    "mobile_b3": "Revenue and calendar at a glance",
+    "mobile_platforms": "Available on iOS and Android",
+    "mobile_badge_small1": "Download on the",
+    "mobile_badge_small2": "Get it on",
+    "mobile_note": "Free with every LacaStay subscription",
+    "mobile_imgalt": "LacaStay mobile calendar packed with a week's bookings"
   },
   "how": {
     "book": {
@@ -173,7 +184,7 @@
       "cta2": "See how it works",
       "eyebrow": "For nail salons",
       "h1": "83% of your regulars have hung up and booked elsewhere.",
-      "imgalt": "LacaStay appointments view for a nail salon",
+      "imgalt": "Nail technician applying polish in a bright salon",
       "note": "Live answers in under a second — no hardware, no new app to learn.",
       "sub": "LacaStay is the AI receptionist that answers every call, books every fill-in, and keeps every chair full — 24/7, in English, Spanish, and more."
     },
@@ -199,7 +210,8 @@
       "s3l": "lost per year to no-shows at a $400K-revenue salon",
       "s3n": "$60K–$80K",
       "s3s": "PBA, 2025"
-    }
+    },
+    "band_cap": "Every call answered. Every chair full."
   },
   "rental": {
     "cta": {
@@ -258,7 +270,7 @@
       "cta2": "See how it works",
       "eyebrow": "For vacation rental hosts",
       "h1": "Reply in seconds. Rank higher. Book direct.",
-      "imgalt": "LacaStay revenue dashboard for a vacation rental",
+      "imgalt": "Beautiful vacation rental home at dusk",
       "note": "Host to host: fast, metric-driven, no fluff.",
       "sub": "LacaStay is your always-on guest concierge — answering inquiries, sending check-in codes, and handling the 11 PM questions while you sleep."
     },
@@ -284,7 +296,8 @@
       "s3l": "more likely to qualify a lead when you respond within the first hour",
       "s3n": "7x",
       "s3s": "Harvard Business Review"
-    }
+    },
+    "band_cap": "Five-star responses, even at 2 AM."
   },
   "spa": {
     "cta": {
@@ -343,7 +356,7 @@
       "cta2": "See how it works",
       "eyebrow": "For spas & med spas",
       "h1": "A front desk that never keeps a guest waiting.",
-      "imgalt": "LacaStay owner dashboard for a spa",
+      "imgalt": "Serene spa treatment room with candles and orchids",
       "note": "Polished, professional, and always on — even at 11 PM.",
       "sub": "LacaStay answers every call, books every treatment, and sends every intake form — so your guest experience starts before the first visit."
     },
@@ -369,6 +382,7 @@
       "s3l": "of online bookings happen while you're closed",
       "s3n": "46%",
       "s3s": "Phorest data, via Sola Salon Studios, 2026"
-    }
+    },
+    "band_cap": "A calm front desk for a calm space."
   }
 }

@@ -1,0 +1,1 @@
+- 2026-10-12: rebuilt all 4 mockups from DATA object — dashboard no longer shows $0/0; new calendar (phone+desktop) and desktop dashboard with believable numbers

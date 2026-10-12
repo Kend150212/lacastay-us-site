@@ -115,7 +115,7 @@
     fetch(I18N_URL(lang))
       .then(function (r) { return r.ok ? r.json() : {}; })
       .catch(function () { return {}; })
-      .then(function (json) { strings = json.demo || {}; render(); if (done) done(); });
+      .then(function (json) { strings = json || {}; render(); if (done) done(); });
   }
 
   window.lacastayAfterI18n = function (nextLang) {
