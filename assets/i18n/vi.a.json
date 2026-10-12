@@ -173,7 +173,27 @@
     "shots_cap1": "Tổng quan hôm nay — doanh thu, booking và cuộc gọi AI trong một cái nhìn",
     "shots_cap2": "Một tuần booking, phân màu theo thợ",
     "shots_imgalt1": "Bảng điều khiển LacaStay trên máy tính",
-    "shots_imgalt2": "Lịch tuần LacaStay trên máy tính"
+    "shots_imgalt2": "Lịch tuần LacaStay trên máy tính",
+    "chip1": "Nghe máy 24/7",
+    "chip2": "Nhận booking cả lúc bạn ngủ",
+    "chip3": "Tự động nhắc lịch, chống bỏ hẹn",
+    "trust_live": "Triển khai trong một buổi chiều",
+    "card_booking_title": "Booking mới",
+    "card_booking_detail": "Gel Manicure · Jessica M.",
+    "card_booking_time": "Hôm nay 2:30 PM",
+    "pill_answered": "Đã nhận cuộc gọi · 2:14 AM",
+    "screen_dashboard": "Tổng quan",
+    "screen_calendar": "Lịch",
+    "screen_chat": "Chat AI",
+    "screen_staff": "Điểm danh",
+    "screen_appts": "Lịch hẹn",
+    "screen_dashboard_alt": "Bảng điều khiển app LacaStay với booking hôm nay",
+    "screen_calendar_alt": "Lịch app LacaStay kín booking cả tuần",
+    "screen_chat_alt": "Chat AI LacaStay đang đặt lịch hẹn",
+    "screen_staff_alt": "Màn hình điểm danh nhân viên LacaStay",
+    "screen_appts_alt": "Danh sách lịch hẹn LacaStay",
+    "carousel_prev": "Màn hình trước",
+    "carousel_next": "Màn hình tiếp"
   },
   "meta": {
     "title": "LacaStay — Lễ Tân AI 24/7 cho Tiệm Nail, Spa & Cho Thuê Kỳ Nghỉ"

@@ -8,6 +8,8 @@ Outputs (exact pixels):
   assets/img/app-calendar.png           1080x1920  (new)
   assets/img/app-dashboard-desktop.png  1600x1000  (new)
   assets/img/app-calendar-desktop.png   1600x1000  (new)
+  assets/img/app-chat.png                 1080x1920  (new)
+  assets/img/app-staff-checkin.png        1080x1920  (new)
 """
 import os
 from pathlib import Path
@@ -566,6 +568,169 @@ def desktop_calendar():
 </div></div></body></html>"""
 
 
+
+# ------------------------------------------------------ phone chat ----
+CHAT_CSS = """
+.chathead{display:flex;align-items:center;gap:14px;padding:10px 28px 12px;background:#fff;border-bottom:1px solid #EEF0F3}
+.chatback{width:44px;height:44px;border-radius:50%;background:#F3F4F6;display:flex;align-items:center;justify-content:center}
+.chatavatar{width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#FB923C,#EA580C);display:flex;align-items:center;justify-content:center;flex:none}
+.chatavatar img{width:40px;height:40px}
+.chatname{font-size:24px;font-weight:900}
+.chatstatus{font-size:16px;color:#16A34A;font-weight:700;display:flex;align-items:center;gap:6px}
+.chatstatus .dot{width:10px;height:10px;border-radius:50%;background:#16A34A}
+.chatbody{flex:1;padding:18px 26px;overflow:hidden;display:flex;flex-direction:column;gap:12px;background:#F8F9FB}
+.datediv{align-self:center;font-size:15px;color:#9CA3AF;font-weight:700;background:#EEF0F3;padding:6px 18px;border-radius:999px}
+.cmsg{max-width:78%;padding:14px 18px;border-radius:22px;font-size:20px;font-weight:600;line-height:1.45;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.cmsg.left{align-self:flex-start;background:#fff;border-bottom-left-radius:8px;color:#1F2937}
+.cmsg.right{align-self:flex-end;background:linear-gradient(135deg,#FB923C,#F97316);color:#fff;border-bottom-right-radius:8px}
+.cmsg.ai-left{align-self:flex-start;background:#FFF7ED;border:1px solid #FED7AA;border-bottom-left-radius:8px;color:#7C2D12}
+.ctime{font-size:13px;color:#9CA3AF;font-weight:700;margin-top:4px}
+.cmsg.right + .ctime{align-self:flex-end}
+.cmsg.left + .ctime,.cmsg.ai-left + .ctime{align-self:flex-start}
+.typing{align-self:flex-start;background:#fff;border-radius:22px;border-bottom-left-radius:8px;padding:16px 20px;display:flex;gap:7px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.typing span{width:11px;height:11px;border-radius:50%;background:#9CA3AF;opacity:.5}
+.quickrow{display:flex;gap:10px;padding:4px 0}
+.quick{font-size:17px;font-weight:800;color:#C2410C;background:#FFF1E2;border:1.5px solid #FDBA74;padding:10px 20px;border-radius:999px}
+.chatinput{display:flex;align-items:center;gap:12px;padding:14px 22px;background:#fff;border-top:1px solid #EEF0F3}
+.inputbox{flex:1;background:#F3F4F6;border-radius:999px;padding:16px 24px;font-size:19px;color:#9CA3AF;font-weight:600}
+.sendbtn{width:60px;height:60px;border-radius:50%;background:linear-gradient(180deg,#FB923C,#F97316);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 16px rgba(249,115,22,.4);flex:none}
+"""
+
+
+def phone_chat():
+    d = DATA
+    return f"""<!DOCTYPE html><html><head><meta charset="utf-8">{FONT}
+<style>{BASE_CSS}{APP_CSS}{CHAT_CSS}</style></head>
+<body><div class="page" style="width:1080px;height:1920px">
+<div class="blob" style="width:300px;height:300px;left:-100px;bottom:60px"></div>
+<div class="blob" style="width:280px;height:280px;right:-90px;bottom:300px"></div>
+<h1 class="hero">AI chat, day &amp; night</h1>
+<div class="phone"><div class="screen"><div class="notch"></div>
+  <div class="statusbar"><span>15:05</span>
+    <div class="sb-icons">
+      <svg width="34" height="22" viewBox="0 0 34 22" fill="#111"><rect x="0" y="12" width="5" height="10" rx="1"/><rect x="8" y="8" width="5" height="14" rx="1"/><rect x="16" y="4" width="5" height="18" rx="1"/><rect x="24" y="0" width="5" height="22" rx="1" opacity=".35"/></svg>
+      <svg width="30" height="22" viewBox="0 0 30 22" fill="none" stroke="#111" stroke-width="2.4"><path d="M4 8a15 15 0 0 1 22 0M8 12.5a10 10 0 0 1 14 0M12 17a5 5 0 0 1 6 0"/><circle cx="15" cy="20" r="1.6" fill="#111" stroke="none"/></svg>
+      <svg width="44" height="22" viewBox="0 0 44 22"><rect x="1" y="1" width="36" height="20" rx="6" fill="none" stroke="#111" stroke-width="2" opacity=".4"/><rect x="4" y="4" width="24" height="14" rx="3.5" fill="#111"/><rect x="39" y="7" width="4" height="8" rx="2" fill="#111" opacity=".4"/></svg>
+    </div></div>
+  <div class="chathead">
+    <div class="chatback">{icon('chevl', 24, '#374151', 2.4)}</div>
+    <div class="chatavatar"><img src="owl.png" alt=""></div>
+    <div style="flex:1"><div class="chatname">Laca AI</div>
+      <div class="chatstatus"><span class="dot"></span>Online · replies instantly</div></div>
+    {icon('phone', 28, '#F97316', 2)}
+  </div>
+  <div class="chatbody">
+    <div class="datediv">Today</div>
+    <div class="cmsg right">Hi! Do you have any openings for a gel manicure tomorrow afternoon?</div>
+    <div class="ctime">2:12 PM</div>
+    <div class="cmsg ai-left">Hi Jessica! Yes — I have tomorrow at 2:30 PM or 4:15 PM with Anna. Which works better for you?</div>
+    <div class="ctime">2:12 PM</div>
+    <div class="cmsg right">2:30 works for me!</div>
+    <div class="ctime">2:13 PM</div>
+    <div class="cmsg ai-left">You&apos;re booked for tomorrow at 2:30 PM with Anna. I&apos;ll text you a reminder the day before. See you then!</div>
+    <div class="ctime">2:13 PM</div>
+    <div class="quickrow"><div class="quick">Reschedule</div><div class="quick">Add a pedi</div><div class="quick">Get directions</div></div>
+    <div class="typing"><span></span><span style="opacity:.75"></span><span></span></div>
+  </div>
+  <div class="chatinput">
+    <div class="inputbox">Type a message…</div>
+    <div class="sendbtn">{icon('zap', 28, '#fff', 2.4)}</div>
+  </div>
+  <div class="tabbar">
+    <div class="tab">{icon('home', 34, sw=2)}<span>Home</span></div>
+    <div class="tab">{icon('calendar', 34, sw=2)}<span>Appointments</span></div>
+    <div class="fab">{icon('plus', 44, '#fff', 2.6)}</div>
+    <div class="tab active">{icon('chat', 34, '#F97316', 2.2)}<span>Connect</span></div>
+    <div class="tab">{icon('more', 34, sw=2)}<span>More</span></div>
+  </div>
+</div></div>
+<div style="height:36px"></div>
+<img src="owl.png" style="height:150px" alt="LacaStay owl">
+</div></body></html>"""
+
+
+# ------------------------------------------------- phone staff -------
+STAFF_CSS = """
+.staffhead{padding:8px 30px 0}
+.stafftitle{font-size:44px;font-weight:900;margin:2px 0 4px}
+.staffsub{font-size:19px;color:#6B7280;font-weight:600;margin-bottom:12px}
+.dutycard{background:linear-gradient(135deg,#FB923C,#EA580C);border-radius:24px;margin:6px 28px 0;padding:20px 24px;color:#fff;box-shadow:0 8px 24px rgba(249,115,22,.35);display:flex;align-items:center;gap:18px}
+.dutynum{font-size:52px;font-weight:900}
+.dutylabel{font-size:19px;font-weight:700;opacity:.95;line-height:1.35}
+.stafflist{flex:1;padding:16px 28px 0;overflow:hidden}
+.staffrow{display:flex;align-items:center;gap:16px;background:#fff;border-radius:22px;padding:16px 18px;margin-bottom:12px;box-shadow:0 3px 12px rgba(0,0,0,.05)}
+.savatar{width:66px;height:66px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:25px;flex:none;position:relative}
+.savatar .presence{position:absolute;bottom:2px;right:2px;width:18px;height:18px;border-radius:50%;border:3px solid #fff}
+.sinfo{flex:1;min-width:0}
+.sname{font-size:23px;font-weight:800}
+.srole{font-size:17px;color:#6B7280;font-weight:600}
+.stime{font-size:16px;font-weight:800;color:#15803D}
+.stime.off{color:#9CA3AF}
+.checkinbtn{font-size:17px;font-weight:800;color:#EA580C;background:#FFF7ED;border:2px solid #FDBA74;padding:12px 24px;border-radius:999px;flex:none}
+"""
+
+
+def phone_staff_checkin():
+    staff = [
+        ("Anna Nguyen", "Nail Tech · Chair 1", "AN", "#FFF1E2", "#C2410C", "8:55 AM", True, False),
+        ("Linda Tran", "Nail Tech · Chair 2", "LT", "#DBEAFE", "#1D4ED8", "9:02 AM", True, False),
+        ("Mai Pham", "Nail Tech · Chair 3", "MP", "#D1FAE5", "#047857", "9:15 AM", True, False),
+        ("David Lee", "Receptionist", "DL", "#F3F4F6", "#6B7280", None, False, False),
+        ("Sofia Garcia", "Nail Tech · Chair 4", "SG", "#F3F4F6", "#9CA3AF", None, False, True),
+    ]
+    rows = ""
+    for name, role, init, bg, fg, t, onduty, dayoff in staff:
+        if dayoff:
+            right = '<div class="stime off">Day off</div>'
+            pres = ''
+        elif onduty:
+            right = f'<div class="stime">On duty · {t}</div>'
+            pres = '<span class="presence" style="background:#16A34A"></span>'
+        else:
+            right = '<div class="checkinbtn">Check in</div>'
+            pres = '<span class="presence" style="background:#D1D5DB"></span>'
+        rows += f"""
+        <div class="staffrow">
+          <div class="savatar" style="background:{bg};color:{fg}">{init}{pres}</div>
+          <div class="sinfo"><div class="sname">{name}</div><div class="srole">{role}</div></div>
+          {right}
+        </div>"""
+    return f"""<!DOCTYPE html><html><head><meta charset="utf-8">{FONT}
+<style>{BASE_CSS}{APP_CSS}{STAFF_CSS}</style></head>
+<body><div class="page" style="width:1080px;height:1920px">
+<div class="blob" style="width:300px;height:300px;left:-100px;bottom:60px"></div>
+<div class="blob" style="width:280px;height:280px;right:-90px;bottom:300px"></div>
+<h1 class="hero">Who&apos;s on duty</h1>
+<div class="phone"><div class="screen"><div class="notch"></div>
+  <div class="statusbar"><span>15:05</span>
+    <div class="sb-icons">
+      <svg width="34" height="22" viewBox="0 0 34 22" fill="#111"><rect x="0" y="12" width="5" height="10" rx="1"/><rect x="8" y="8" width="5" height="14" rx="1"/><rect x="16" y="4" width="5" height="18" rx="1"/><rect x="24" y="0" width="5" height="22" rx="1" opacity=".35"/></svg>
+      <svg width="30" height="22" viewBox="0 0 30 22" fill="none" stroke="#111" stroke-width="2.4"><path d="M4 8a15 15 0 0 1 22 0M8 12.5a10 10 0 0 1 14 0M12 17a5 5 0 0 1 6 0"/><circle cx="15" cy="20" r="1.6" fill="#111" stroke="none"/></svg>
+      <svg width="44" height="22" viewBox="0 0 44 22"><rect x="1" y="1" width="36" height="20" rx="6" fill="none" stroke="#111" stroke-width="2" opacity=".4"/><rect x="4" y="4" width="24" height="14" rx="3.5" fill="#111"/><rect x="39" y="7" width="4" height="8" rx="2" fill="#111" opacity=".4"/></svg>
+    </div></div>
+  <div class="staffhead">
+    <div class="apptitle">Staff check-in</div>
+    <div class="staffsub">Monday, Oct 12 · Laca Stay</div>
+  </div>
+  <div class="dutycard">
+    <div class="dutynum">3/5</div>
+    <div class="dutylabel">team members<br>on duty right now</div>
+    <div style="margin-left:auto">{icon('users', 44, '#fff', 2)}</div>
+  </div>
+  <div class="stafflist">{rows}</div>
+  <div class="tabbar">
+    <div class="tab">{icon('home', 34, sw=2)}<span>Home</span></div>
+    <div class="tab">{icon('calendar', 34, sw=2)}<span>Appointments</span></div>
+    <div class="fab">{icon('plus', 44, '#fff', 2.6)}</div>
+    <div class="tab">{icon('chat', 34, sw=2)}<span>Connect</span></div>
+    <div class="tab active">{icon('more', 34, '#F97316', 2.2)}<span>More</span></div>
+  </div>
+</div></div>
+<div style="height:36px"></div>
+<img src="owl.png" style="height:150px" alt="LacaStay owl">
+</div></body></html>"""
+
+
 # ---------------------------------------------------------------- render -
 def render():
     from playwright.sync_api import sync_playwright
@@ -574,6 +739,8 @@ def render():
         ("cal.html", phone_calendar(), 1080, 1920, IMG / "app-calendar.png"),
         ("dash-desk.html", desktop_dashboard(), 1600, 1000, IMG / "app-dashboard-desktop.png"),
         ("cal-desk.html", desktop_calendar(), 1600, 1000, IMG / "app-calendar-desktop.png"),
+        ("chat.html", phone_chat(), 1080, 1920, IMG / "app-chat.png"),
+        ("staff.html", phone_staff_checkin(), 1080, 1920, IMG / "app-staff-checkin.png"),
     ]
     with sync_playwright() as p:
         b = p.chromium.launch()

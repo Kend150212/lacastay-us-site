@@ -173,7 +173,27 @@
     "shots_cap1": "Today's overview — revenue, bookings, and AI calls at a glance",
     "shots_cap2": "A week of bookings, color-coded by technician",
     "shots_imgalt1": "LacaStay owner dashboard on desktop",
-    "shots_imgalt2": "LacaStay week calendar on desktop"
+    "shots_imgalt2": "LacaStay week calendar on desktop",
+    "chip1": "Calls answered 24/7",
+    "chip2": "Books while you sleep",
+    "chip3": "No-shows reminded automatically",
+    "trust_live": "Live in one afternoon",
+    "card_booking_title": "New booking",
+    "card_booking_detail": "Gel Manicure · Jessica M.",
+    "card_booking_time": "Today 2:30 PM",
+    "pill_answered": "Call answered · 2:14 AM",
+    "screen_dashboard": "Dashboard",
+    "screen_calendar": "Calendar",
+    "screen_chat": "AI Chat",
+    "screen_staff": "Staff check-in",
+    "screen_appts": "Appointments",
+    "screen_dashboard_alt": "LacaStay app dashboard with today's bookings",
+    "screen_calendar_alt": "LacaStay app calendar with a full week of bookings",
+    "screen_chat_alt": "LacaStay AI chat booking an appointment",
+    "screen_staff_alt": "LacaStay staff check-in screen",
+    "screen_appts_alt": "LacaStay appointments list",
+    "carousel_prev": "Previous screen",
+    "carousel_next": "Next screen"
   },
   "meta": {
     "title": "LacaStay — The 24/7 AI Receptionist for Nail Salons, Spas & Vacation Rentals"
