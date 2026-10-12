@@ -17,6 +17,12 @@
 .demo-stat { text-align:center; }
 .demo-phone { font-size:2.2rem; font-weight:800; color:var(--orange-dark); text-decoration:none; }
 .sample-tag { display:inline-block; background:#fef3c7; border:1px dashed #d97706; color:#92400e; font-size:.8rem; font-weight:700; padding:4px 12px; border-radius:999px; margin-top:10px; }
+.samples-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:32px; }
+.sample-card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:24px; box-shadow:0 10px 28px rgba(0,0,0,.05); }
+.sample-card h3 { margin:12px 0 6px; font-size:1.05rem; }
+.sample-card p { color:var(--muted); font-size:.9rem; margin-bottom:14px; }
+.sample-card audio { width:100%; }
+@media (max-width: 900px) { .samples-grid { grid-template-columns:1fr; } }
 #demo-form-success { display:none; margin-top:16px; }
 </style>
 </head>
@@ -58,6 +64,33 @@
     <p style="margin:24px 0 4px"><a class="demo-phone" href="tel:+13013013852" data-i18n="demo.call.number">(301) 301-3852</a></p>
     <p><span class="sample-tag" data-i18n="demo.call.sample">Sample number — replace with the live demo line before launch.</span></p>
     <p class="hero-note" data-i18n="demo.call.hint">Go ahead, call it. Ask about services, prices, or book a fake appointment.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="center" data-i18n="demo.samples.title">Hear it handle real bookings</h2>
+    <p class="center lead" data-i18n="demo.samples.sub">Sample calls — the AI books, confirms, and answers questions on its own.</p>
+    <div class="samples-grid">
+      <div class="sample-card">
+        <span class="demo-badge demo-badge-ai" data-i18n="demo.tab.salon">Nail Salon</span>
+        <h3 data-i18n="demo.samples.nails.title">Gel manicure booking</h3>
+        <p data-i18n="demo.samples.nails.desc">Friday afternoon appointment, confirmed in under a minute.</p>
+        <audio controls preload="none" src="assets/audio/call-nails.mp3?v=20261012c"></audio>
+      </div>
+      <div class="sample-card">
+        <span class="demo-badge demo-badge-ai" data-i18n="demo.tab.spa">Spa</span>
+        <h3 data-i18n="demo.samples.spa.title">Massage booking</h3>
+        <p data-i18n="demo.samples.spa.desc">Deep tissue massage — answers pricing questions, then books.</p>
+        <audio controls preload="none" src="assets/audio/call-spa.mp3?v=20261012c"></audio>
+      </div>
+      <div class="sample-card">
+        <span class="demo-badge demo-badge-ai" data-i18n="demo.tab.rental">Vacation Rental</span>
+        <h3 data-i18n="demo.samples.rental.title">Weekend stay booking</h3>
+        <p data-i18n="demo.samples.rental.desc">Checks availability, quotes the total, confirms by email.</p>
+        <audio controls preload="none" src="assets/audio/call-rental.mp3?v=20261012c"></audio>
+      </div>
+    </div>
   </div>
 </section>
 
